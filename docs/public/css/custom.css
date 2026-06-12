@@ -1,0 +1,26 @@
+/* Full-width content within the non-sidebar area */
+.content.container,
+.content .container,
+.container {
+  max-width: 100% !important;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Ensure content doesn't underlap the sidebar on wider screens */
+@media (min-width: 48em) {
+  .content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}

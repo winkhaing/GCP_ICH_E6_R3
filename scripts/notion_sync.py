@@ -209,8 +209,26 @@ def sync_page(page_id, out_path: Path, depth_label=""):
     return title
 
 # ── Main ──────────────────────────────────────────────────────────────────────
+def clean_docs():
+    """Remove all .md files from docs/ (except _config.yml) before each sync
+    so renamed/deleted Notion pages don't leave stale files."""
+    if not OUTPUT_DIR.exists():
+        return
+    for f in OUTPUT_DIR.rglob("*.md"):
+        f.unlink()
+    # Remove empty directories (leave _config.yml untouched)
+    for d in sorted(OUTPUT_DIR.rglob("*"), reverse=True):
+        if d.is_dir():
+            try:
+                d.rmdir()  # only removes if empty
+            except OSError:
+                pass
+    print("🧹  Cleared stale docs\n")
+
+
 def main():
     print(f"🔄  Syncing Notion → {OUTPUT_DIR}/\n")
+    clean_docs()
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     # 1. Root page

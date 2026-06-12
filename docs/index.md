@@ -1,104 +1,63 @@
 ---
 title: "Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals"
-layout: default
+layout: home
 ---
 
 # Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals
 
-> 📋 
-
-****Table of Contents****
-
-
-# Module 1: What is Clinical Research
-
-
-# Module 2: The Ethical Foundations of Human Research
-
-
-# Module 3: The Drug Development Pipeline
-
-
-# Module 4: Understanding Clinical Trial Phases
-
-
-# Module 5: The People Behind Clinical Trials
-
-
-# Module 6
-
-
-## H
-
-
-# Module 7
-
-
-## H
-
-
-# Module 8
-
-
-## H
-
-
-
 ---
 
-## Contents
-
-
-### Module 1: What is Clinical Research
+## Module 1: What is Clinical Research
 
 - [The Quest for Medical Evidence](./module-1-what-is-clinical-research/the-quest-for-medical-evidence/)
 - [Types of Clinical Research](./module-1-what-is-clinical-research/types-of-clinical-research/)
 - [Why Clinical Trials Matter](./module-1-what-is-clinical-research/why-clinical-trials-matter/)
 
-### Module 2: The Ethical Foundations of Human Research
+## Module 2: The Ethical Foundations of Human Research
 
 - [Lessons from History](./module-2-the-ethical-foundations-of-human-research/lessons-from-history/)
 - [The Belmont Report and Core Principles](./module-2-the-ethical-foundations-of-human-research/the-belmont-report-and-core-principles/)
 - [From Principles to Practice](./module-2-the-ethical-foundations-of-human-research/from-principles-to-practice/)
 
-### Module 3: The Drug Development Pipeline
+## Module 3: The Drug Development Pipeline
 
 - [Discovery and Preclinical Research](./module-3-the-drug-development-pipeline/discovery-and-preclinical-research/)
 - [The IND and Clinical Development](./module-3-the-drug-development-pipeline/the-ind-and-clinical-development/)
 - [Regulatory Review and Approval](./module-3-the-drug-development-pipeline/regulatory-review-and-approval/)
 - [Beyond Approval: Post-Marketing](./module-3-the-drug-development-pipeline/beyond-approval-post-marketing/)
 
-### Module 4: Understanding Clinical Trial Phases
+## Module 4: Understanding Clinical Trial Phases
 
 - [Phase I: First-In-Human Studies](./module-4-understanding-clinical-trial-phases/phase-i-first-in-human-studies/)
 - [Phase II: Proof of Concept](./module-4-understanding-clinical-trial-phases/phase-ii-proof-of-concept/)
 - [Phase III: Pivotal Trials](./module-4-understanding-clinical-trial-phases/phase-iii-pivotal-trials/)
 - [Phase IV and Beyond](./module-4-understanding-clinical-trial-phases/phase-iv-and-beyond/)
 
-### Module 5: The People Behind Clinical Trials
+## Module 5: The People Behind Clinical Trials
 
 - [Sponsors and Contract Research Organizations](./module-5-the-people-behind-clinical-trials/sponsors-and-contract-research-organizations/)
 - [Investigators and Site Staff](./module-5-the-people-behind-clinical-trials/investigators-and-site-staff/)
 - [Ethics Comittees and Regularoty Authorities](./module-5-the-people-behind-clinical-trials/ethics-comittees-and-regularoty-authorities/)
 - [Participants: The Heart of Clinical Research](./module-5-the-people-behind-clinical-trials/participants-the-heart-of-clinical-research/)
 
-### Module 6
+## Module 6
 
 - [Types of Clinical Research (6)](./module-6/types-of-clinical-research-6/)
 - [Types of Clinical Research (7)](./module-6/types-of-clinical-research-7/)
 - [Types of Clinical Research (8)](./module-6/types-of-clinical-research-8/)
 - [Types of Clinical Research (7)](./module-6/types-of-clinical-research-7/)
 
-### Module 7
+## Module 7
 
 - [Types of Clinical Research (6)](./module-7/types-of-clinical-research-6/)
 - [Types of Clinical Research (7)](./module-7/types-of-clinical-research-7/)
 - [Types of Clinical Research (8)](./module-7/types-of-clinical-research-8/)
 - [Types of Clinical Research (7)](./module-7/types-of-clinical-research-7/)
 
-### Module 8
+## Module 8
 
 - [Types of Clinical Research (5)](./module-8/types-of-clinical-research-5/)
 - [Types of Clinical Research (6)](./module-8/types-of-clinical-research-6/)
 - [Types of Clinical Research (7)](./module-8/types-of-clinical-research-7/)
 - [Types of Clinical Research (6)](./module-8/types-of-clinical-research-6/)
+

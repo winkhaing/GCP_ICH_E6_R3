@@ -1,6 +1,6 @@
 ---
 title: "Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals"
-layout: home
+layout: default
 ---
 
 # Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals

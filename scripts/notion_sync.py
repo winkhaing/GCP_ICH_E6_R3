@@ -236,35 +236,41 @@ def main():
     root_title = page_title(root_page)
     root_blocks = fetch_all_blocks(ROOT_PAGE_ID)
 
-    # Write root index
-    content_blocks = [b for b in root_blocks if b["type"] != "child_page"]
-    root_md = [
-        f'---\ntitle: "{root_title}"\nlayout: default\n---\n\n',
-        f"# {root_title}\n\n",
-    ]
-    root_md.extend(blocks_to_md(content_blocks))
-
     # 2. Collect ALL child pages (nested at any depth)
     print("  Scanning for subpages…")
     child_pages = collect_child_pages(root_blocks)
     print(f"  Found {len(child_pages)} subpages\n")
 
-    # Append module nav to root
-    if child_pages:
-        # Group by module
-        from collections import defaultdict
-        by_module = defaultdict(list)
-        for cp in child_pages:
-            by_module[cp["module"]].append(cp)
+    # Extract callout text for site description (first callout block only)
+    callout_text = ""
+    for b in root_blocks:
+        if b["type"] == "callout":
+            callout_text = rt_to_md(b["callout"]["rich_text"]).strip()
+            break
 
-        root_md.append("\n---\n\n## Contents\n\n")
+    # Build clean homepage — title + description + module nav only
+    from collections import defaultdict, OrderedDict
+    by_module = OrderedDict()
+    for cp in child_pages:
+        mod = cp["module"] or "General"
+        by_module.setdefault(mod, []).append(cp)
+
+    root_md = [
+        f'---\ntitle: "{root_title}"\nlayout: home\n---\n\n',
+        f"# {root_title}\n\n",
+    ]
+    if callout_text:
+        root_md.append(f"> {callout_text}\n\n")
+
+    if by_module:
+        root_md.append("---\n\n")
         for module, pages in by_module.items():
-            if module:
-                root_md.append(f"\n### {module}\n\n")
+            root_md.append(f"## {module}\n\n")
             for cp in pages:
-                slug = slugify(cp["title"])
+                slug    = slugify(cp["title"])
                 mod_slug = slugify(cp["module"]) if cp["module"] else "pages"
                 root_md.append(f"- [{cp['title']}](./{mod_slug}/{slug}/)\n")
+            root_md.append("\n")
 
     (OUTPUT_DIR / "index.md").write_text("".join(root_md), encoding="utf-8")
     print(f"  ✓ docs/index.md  (root)")

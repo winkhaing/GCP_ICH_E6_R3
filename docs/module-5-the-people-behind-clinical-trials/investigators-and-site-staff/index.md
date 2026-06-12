@@ -231,8 +231,7 @@ Dr. Foster currently has a busy clinical practice, one medical assistant, no pr
 
 ---
 
-Source: 
-[https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff)
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff)
 Burmese Version
 
 # သုတေသနပညာရှင်များနှင့် စမ်းသပ်ရာနေရာရှိ ဝန်ထမ်းများ (Investigators and Site Staff)

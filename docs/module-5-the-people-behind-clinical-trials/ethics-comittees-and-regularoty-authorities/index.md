@@ -250,7 +250,7 @@ Dr. Foster has two patients over 70 currently enrolled. One has already complet
 
 ---
 
-Source: 
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/ethics-committees-and-regulatory-authorities](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/ethics-committees-and-regulatory-authorities)
 Burmese Version
 
 # ကျင့်ဝတ်ဆိုင်ရာ ကော်မတီများနှင့် စည်းကမ်းထိန်းသိမ်းရေး အာဏာပိုင်များ (Ethics Committees and Regulatory Authorities)
@@ -510,6 +510,6 @@ FDA သည် စမ်းသပ်ဆဲထုတ်ကုန်များသ
 
 ---
 
-Source: 
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/ethics-committees-and-regulatory-authorities](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/ethics-committees-and-regulatory-authorities)
 Translated by **Google Gemini (3.5 Flash)**
 

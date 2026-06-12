@@ -49,10 +49,10 @@ layout: default
 
 ## Module 7: Regulatory Oversight and Quality
 
-- [Types of Clinical Research (6)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-7/)
-- [Types of Clinical Research (8)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-8/)
-- [Types of Clinical Research (7)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-7/)
+- [The Regulatory Landscape](./module-7-regulatory-oversight-and-quality/the-regulatory-landscape/)
+- [ICH and International Harmonization](./module-7-regulatory-oversight-and-quality/ich-and-international-harmonization/)
+- [Good Clinical Practice: An Introduction](./module-7-regulatory-oversight-and-quality/good-clinical-practice-an-introduction/)
+- [When Things Go Wrong: Inspections and Enforcement](./module-7-regulatory-oversight-and-quality/when-things-go-wrong-inspections-and-enforcement/)
 
 ## Module 8: Your Future in Clinical Research
 

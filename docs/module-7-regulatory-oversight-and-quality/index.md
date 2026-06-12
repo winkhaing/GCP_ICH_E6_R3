@@ -6,7 +6,7 @@ nav_order: 7
 
 # Module 7: Regulatory Oversight and Quality
 
-- [Types of Clinical Research (6)](./types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./types-of-clinical-research-7/)
-- [Types of Clinical Research (8)](./types-of-clinical-research-8/)
-- [Types of Clinical Research (7)](./types-of-clinical-research-7/)
+- [The Regulatory Landscape](./the-regulatory-landscape/)
+- [ICH and International Harmonization](./ich-and-international-harmonization/)
+- [Good Clinical Practice: An Introduction](./good-clinical-practice-an-introduction/)
+- [When Things Go Wrong: Inspections and Enforcement](./when-things-go-wrong-inspections-and-enforcement/)

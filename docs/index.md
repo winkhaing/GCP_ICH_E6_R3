@@ -1,6 +1,16 @@
 ---
-title: "GCP ICH E6(R3) Training"
-layout: home
+title: "Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals"
+layout: default
 ---
 
-> This site is automatically synced from Notion. Content updates every hour via GitHub Actions.
+# Good Clinical Practice (GCP) |  ICH E6(R3) | Aligned training for clinical research professionals
+
+> 📋 
+# Module 1
+# Module 2
+# Module 3
+# Module 4
+# Module 5
+# Module 6
+# Module 7
+# Module 8

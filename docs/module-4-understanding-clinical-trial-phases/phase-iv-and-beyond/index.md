@@ -47,6 +47,7 @@ Phase IV research addresses these gaps. It is the bridge between the controlled 
 
 ### Reference Table: Phase IV Compared to Earlier Phases
 
+
 | Characteristic | Phase I–III | Phase IV |
 | --- | --- | --- |
 | **Timing** | Before approval | After approval |
@@ -56,6 +57,7 @@ Phase IV research addresses these gaps. It is the bridge between the controlled 
 | **Setting** | Controlled research environment | Actual clinical practice |
 | **Primary focus** | Efficacy and initial safety | Long-term safety, effectiveness, and comparative performance |
 | **Regulatory status** | Required for approval | May be required, committed, or voluntary |
+
 
 ---
 
@@ -115,6 +117,7 @@ The choice of study design depends on the nature of the signal:
 
 ### Reference Table: Comparison of Phase IV Study Designs
 
+
 | Design | Best For | Internal Validity | Key Limitations |
 | --- | --- | --- | --- |
 | **Randomised Controlled Trial** | Efficacy comparison, dose-response | High | Expensive, slow enrolment, limited generalisability |
@@ -123,6 +126,7 @@ The choice of study design depends on the nature of the signal:
 | **Case-Control** | Rare adverse events | Moderate | Recall bias, selection of appropriate controls |
 | **Registry Study** | Natural history, practice patterns | Moderate | Voluntary participation may introduce selection bias |
 | **Database Study** | Large-scale safety surveillance | Moderate | Coding errors, missing clinical detail |
+
 
 ---
 
@@ -205,6 +209,7 @@ Withdrawals are rare. Of thousands of medications approved, only a small percent
 
 ### Timeline: The Lifecycle of a Safety Signal Leading to Withdrawal
 
+
 | Stage | Timeframe |
 | --- | --- |
 | **Approval and Launch** | Year 1: Medication approved based on Phase III data showing favourable benefit-risk in selected trial populations |
@@ -212,6 +217,7 @@ Withdrawals are rare. Of thousands of medications approved, only a small percent
 | **Signal Investigation** | Years 3–4: Epidemiological studies and data analysis evaluate whether the signal represents a real risk |
 | **Risk Confirmation** | Years 4–5: Studies confirm the risk is real; regulators and sponsor assess whether the benefit-risk balance remains favourable |
 | **Decision Point** | Year 5+: Withdrawal if no intervention can adequately manage the risk; labelling changes or REMS if risk can be managed |
+
 > **Withdrawals Demonstrate the System Working**
 When a medication is withdrawn, it is easy to ask: How did this get approved in the first place? But this question misunderstands the nature of drug development. At approval, the medication met the evidentiary standard for safety and efficacy. The risks that emerged later were genuinely unknowable given the information available. Withdrawals are not failures of the approval process; they are demonstrations that post-marketing surveillance works.
 

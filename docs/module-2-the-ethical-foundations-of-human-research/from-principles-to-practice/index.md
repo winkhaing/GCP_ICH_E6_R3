@@ -30,6 +30,7 @@ The regulation also created a mandatory system of independent oversight. Researc
 
 ## Timeline: From Belmont to Modern Regulatory Framework
 
+
 | Year | Event |
 | --- | --- |
 | 1979 | **Belmont Report** — National Commission publishes three core principles: respect for persons, beneficence, and justice |
@@ -38,6 +39,7 @@ The regulation also created a mandatory system of independent oversight. Researc
 | 1996 | **ICH GCP Finalized** — International Conference on Harmonisation creates global clinical trial standards |
 | 2018 | **Revised Common Rule** — Major update modernises requirements for consent, exempt categories, and IRB review |
 | 2025 | **ICH E6(R3)** — Updated international guideline emphasises proportionality and modern technology |
+
 
 ---
 
@@ -129,6 +131,7 @@ Burmese Version
 
 ## အချိန်မှတ်တမ်း - ဘယ်လ်မောင့်မှ ခေတ်သစ် ထိန်းကျောင်းကြီးကြပ်မှုစနစ်ဆီသို့ (Timeline: From Belmont to Modern Regulatory Framework)
 
+
 | ခုနှစ် | အဖြစ်အပျက် |
 | --- | --- |
 | ၁၉၇၉ | **ဘယ်လ်မောင့်အစီရင်ခံစာ (Belmont Report)** — အမျိုးသားကော်မရှင်က အဓိက အခြေခံမူ ၃ ချက်ကို ထုတ်ပြန်ခဲ့သည် - လူသားများအပေါ် လေးစားမှု၊ လူနာအကျိုးရှေးရှုခြင်း၊ နှင့် တရားမျှတမှု |
@@ -137,6 +140,7 @@ Burmese Version
 | ၁၉၉၆ | **ICH GCP အတည်ပြုခြင်း** — International Conference on Harmonisation က ကမ္ဘာလုံးဆိုင်ရာ လက်တွေ့စမ်းသပ်မှု စံနှုန်းများကို ထူထောင်ခဲ့သည် |
 | ၂၀၁၈ | **မွမ်းမံထားသော ဘုံစည်းကမ်း (Revised Common Rule)** — သဘောတူညီချက်ရယူခြင်း၊ ကင်းလွတ်ခွင့်အမျိုးအစားများနှင့် IRB ပြန်လည်သုံးသပ်မှုဆိုင်ရာ လိုအပ်ချက်များကို ခေတ်မီအောင် အကြီးစား မွမ်းမံခဲ့သည် |
 | ၂၀၂၅ | **ICH E6(R3)** — မွမ်းမံထားသော နိုင်ငံတကာ လမ်းညွှန်ချက်တွင် အချိုးကျ ကာကွယ်စောင့်ရှောက်မှုနှင့် ခေတ်မီနည်းပညာများကို အလေးထားဖော်ပြခဲ့သည် |
+
 
 ---
 

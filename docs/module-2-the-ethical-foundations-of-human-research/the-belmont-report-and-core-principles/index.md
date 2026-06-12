@@ -96,11 +96,13 @@ Justice shapes clinical research in multiple dimensions:
 
 ## Reference Table: The Three Belmont Principles at a Glance
 
+
 | Principle | Core Requirement | Key Application | Common Violation |
 | --- | --- | --- | --- |
 | **Respect for Persons** | Treat individuals as autonomous agents; protect those with diminished autonomy | Informed consent: voluntary, comprehensible, ongoing | Pressuring enrolment, inadequate explanation, ignoring participant concerns |
 | **Beneficence** | Maximise benefits, minimise harms; do not harm | Risk-benefit assessment before and during trials | Exposing participants to unjustified risks, ignoring emerging safety signals |
 | **Justice** | Fair distribution of research burdens and benefits | Equitable selection of participants; access to results | Targeting vulnerable groups for convenience, developing treatments they cannot access |
+
 
 ---
 
@@ -252,11 +254,13 @@ Burmese Version
 
 ## ကိုးကားဇယား - ဘယ်လ်မောင့် အခြေခံမူ ၃ ချက်ကို တစ်ချက်ကြည့်ရုံဖြင့် သိနိုင်ခြင်း (The Three Belmont Principles at a Glance)
 
+
 | အခြေခံမူ | အဓိက လိုအပ်ချက် | အဓိက လက်တွေ့အသုံးချမှု | အဖြစ်များသော ချိုးဖောက်မှု |
 | --- | --- | --- | --- |
 | **လူသားများအပေါ် လေးစားမှု** | တစ်ဦးချင်းစီကို ကိုယ်ပိုင်ဆုံးဖြတ်ပိုင်ခွင့်ရှိသူများအဖြစ် ဆက်ဆံရန်၊ ကိုယ်ပိုင်ဆုံးဖြတ်ခွင့် နည်းပါးသူများကို ကာကွယ်ရန် | သဘောတူညီချက်ရယူခြင်း - လိုလိုလားလားရှိခြင်း၊ နားလည်လွယ်ခြင်း၊ အစဉ်တစိုက် ဖြစ်ခြင်း | ပါဝင်ရန် ဖိအားပေးခြင်း၊ မပြည့်စုံသော ရှင်းလင်းမှု၊ ပါဝင်သူ၏ စိုးရိမ်ချက်များကို လျစ်လျူရှုခြင်း |
 | **လူနာအကျိုးရှေးရှုခြင်း** | အကျိုးကျေးဇူးများကို အမြင့်ဆုံးမြှင့်တင်ရန်၊ ဘေးဥပါဒ်များကို အနည်းဆုံးသို့ လျှော့ချရန်၊ ဘေးမဖြစ်စေရန် | စမ်းသပ်မှုမစတင်မီနှင့် စမ်းသပ်စဉ်အတွင်း စွန့်စားမှု-အကျိုးကျေးဇူး ဆန်းစစ်ခြင်း | ပါဝင်သူများအား အကြောင်းပြချက်မရှိဘဲ စွန့်စားမှုများတွင် ထားရှိခြင်း၊ ပေါ်ပေါက်လာသော ဘေးကင်းလုံခြုံရေး အချက်ပြမှုများကို လျစ်လျူရှုခြင်း |
 | **တရားမျှတမှု** | သုတေသန၏ ဝန်ထုပ်ဝန်ပိုးများနှင့် အကျိုးကျေးဇူးများကို မျှတစွာ ခွဲဝေရန် | ပါဝင်သူများကို မျှတစွာ ရွေးချယ်ခြင်း၊ ရလဒ်များကို လက်လှမ်းမီစေခြင်း | အဆင်ပြေရုံသက်သက်ဖြင့် ထိခိုက်လွယ်သောအုပ်စုများကို ပစ်မှတ်ထားခြင်း၊ ၎င်းတို့ လက်လှမ်းမမီနိုင်မည့် ကုသမှုများကို ထုတ်လုပ်ခြင်း |
+
 
 ---
 

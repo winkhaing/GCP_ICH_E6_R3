@@ -40,6 +40,7 @@ The path from scientific discovery to approved medicine is long, expensive, and 
 
 ### Timeline: From Discovery to Medicine
 
+
 | Stage | Timeframe | Description |
 | --- | --- | --- |
 | Target Identification | Years 1–3 | Scientists identify a biological process or molecule involved in a disease that might be modified by a drug |
@@ -47,6 +48,7 @@ The path from scientific discovery to approved medicine is long, expensive, and 
 | Preclinical Testing | Years 4–7 | Lead compounds are tested in laboratory and animal studies for safety, toxicity, and initial efficacy signals |
 | Clinical Trials | Years 6–12 | Compounds that pass preclinical testing are tested in humans through Phase I, II, and III trials |
 | Regulatory Review | Years 10–15 | The FDA or other regulators review all data to decide whether to approve the drug for sale |
+
 
 ---
 
@@ -90,6 +92,7 @@ Preclinical studies fall into two broad categories: **in vitro** studies (conduc
 
 ### Reference Table: In vitro vs. In vivo Testing
 
+
 | Characteristic | In Vitro Studies | In Vivo Studies |
 | --- | --- | --- |
 | **Definition** | Studies conducted outside a living organism, in laboratory dishes, test tubes, or controlled artificial environments | Studies conducted in whole living organisms, typically animals |
@@ -97,6 +100,7 @@ Preclinical studies fall into two broad categories: **in vitro** studies (conduc
 | **Advantages** | Faster, cheaper, more controlled; can test many variations; avoids animal use where possible | Shows how a compound behaves in a complete biological system; reveals effects on organs, metabolism, and interactions |
 | **Limitations** | Cannot replicate the complexity of a whole organism; may miss interactions between body systems | More expensive, time-consuming; raises ethical considerations; animal results do not always predict human responses |
 | **Typical uses** | Initial safety screening, mechanism studies, early efficacy tests | Toxicology studies, pharmacokinetics, required regulatory safety testing |
+
 
 ### What preclinical studies measure
 
@@ -211,6 +215,7 @@ Burmese Version
 
 ### အချိန်မှတ်တမ်း - ရှာဖွေတွေ့ရှိမှုမှသည် ဆေးဝါးဖြစ်လာသည်အထိ (Timeline: From Discovery to Medicine)
 
+
 | အဆင့် | အချိန်ကာလ | ဖော်ပြချက် |
 | --- | --- | --- |
 | ပစ်မှတ်ကို ရှာဖွေခြင်း (Target Identification) | ၁ နှစ်မှ ၃ နှစ် | သိပ္ပံပညာရှင်များသည် ဆေးဝါးဖြင့် ပြုပြင်ပြောင်းလဲနိုင်ခြေရှိပြီး ရောဂါတွင် ပါဝင်ပတ်သက်နေသည့် ဇီဝကမ္မဖြစ်စဉ် သို့မဟုတ် မော်လီကျူး (Target) ကို ရှာဖွေဖော်ထုတ်ကြသည် |
@@ -218,6 +223,7 @@ Burmese Version
 | ကနဦးဓာတ်ခွဲစမ်းသပ်ခြင်း (Preclinical Testing) | ၄ နှစ်မှ ၇ နှစ် | ဆေးဝါးလောင်းလျာ ဒြပ်ပေါင်းများကို ဘေးကင်းလုံခြုံမှု၊ အဆိပ်အတောက်ဖြစ်မှုနှင့် ကနဦးအာနိသင်များအတွက် ဓာတ်ခွဲခန်းနှင့် တိရစ္ဆာန်လေ့လာမှုများတွင် စမ်းသပ်ကြသည် |
 | လက်တွေ့စမ်းသပ်မှုများ (Clinical Trials) | ၆ နှစ်မှ ၁၂ နှစ် | ကနဦးစမ်းသပ်မှု အောင်မြင်သော ဒြပ်ပေါင်းများကို လူသားများတွင် အဆင့် ၁၊ ၂၊ နှင့် ၃ စမ်းသပ်မှုများ (Phase I, II, III) အဖြစ် လက်တွေ့စမ်းသပ်ကြသည် |
 | ထိန်းကျောင်းကြီးကြပ်မှု ပြန်လည်သုံးသပ်ခြင်း (Regulatory Review) | ၁၀ နှစ်မှ ၁၅ နှစ် | FDA သို့မဟုတ် အခြားကြီးကြပ်ရေးအဖွဲ့များက ဆေးဝါးကို ရောင်းချခွင့်ပြု၊ မပြု ဆုံးဖြတ်ရန် ဒေတာအားလုံးကို ပြန်လည်သုံးသပ်ကြသည် |
+
 
 ---
 
@@ -261,6 +267,7 @@ Burmese Version
 
 ### ကိုးကားဇယား - In vitro နှင့် In vivo စမ်းသပ်မှုများ နှိုင်းယှဉ်ချက် (Reference Table: In vitro vs. In vivo Testing)
 
+
 | ဝိသေသလက္ခဏာ | ဖန်ပြွန်/ဓာတ်ခွဲပန်းကန်တွင်း စမ်းသပ်မှုများ (In Vitro) | သက်ရှိသတ္တဝါတွင်း စမ်းသပ်မှုများ (In Vivo) |
 | --- | --- | --- |
 | **အဓိပ္ပာယ်ဖွင့်ဆိုချက်** | သက်ရှိဇီဝရုပ်အဖွဲ့အစည်း၏ ပြင်ပ၊ ဓာတ်ခွဲခန်းသုံး ပန်းကန်ပြားများ၊ ဖန်ပြွန်များ သို့မဟုတ် ထိန်းချုပ်ထားသော အတုပြုလုပ်ထားသော ပတ်ဝန်းကျင်တွင် လုပ်ဆောင်သော လေ့လာမှုများ | သက်ရှိဇီဝရုပ်အဖွဲ့အစည်းတစ်ခုလုံး၊ အထူးသဖြင့် တိရစ္ဆာန်များအတွင်း လုပ်ဆောင်သော လေ့လာမှုများ |
@@ -268,6 +275,7 @@ Burmese Version
 | **အားသာချက်များ** | ပိုမိုမြန်ဆန်ခြင်း၊ ကုန်ကျစရိတ်သက်သာခြင်း၊ ပိုမိုထိန်းချုပ်နိုင်ခြင်း; ကွဲပြားခြားနားမှုများစွာကို စမ်းသပ်နိုင်ခြင်း; ဖြစ်နိုင်သမျှနေရာတိုင်းတွင် တိရစ္ဆာန်အသုံးပြုမှုကို ရှောင်လွှဲနိုင်ခြင်း | ဒြပ်ပေါင်းတစ်ခုသည် ပြီးပြည့်စုံသော ဇီဝစနစ်တစ်ခုလုံးတွင် မည်သို့ပြုမူသည်ကို ပြသနိုင်ခြင်း; ကိုယ်အင်္ဂါများ၊ ဇီဝကမ္မဖြစ်စဉ်များနှင့် အပြန်အလှန်သက်ရောက်မှုများအပေါ် သိရှိနိုင်ခြင်း |
 | **အကန့်အသတ်များ** | သက်ရှိခန္ဓာကိုယ်တစ်ခုလုံး၏ ရှုပ်ထွေးလှသော ဖွဲ့စည်းပုံကို အပြည့်အစုံ မတုပနိုင်ခြင်း; ခန္ဓာကိုယ်စနစ်များအကြား ဆက်သွယ်မှုများကို လွဲချော်နိုင်ခြင်း | ကုန်ကျစရိတ်ပိုမိုများပြားခြင်း၊ အချိန်ကုန်ခြင်း; တိရစ္ဆာန်ကျင့်ဝတ်ဆိုင်ရာ စဉ်းစားချက်များရှိခြင်း; တိရစ္ဆာန်ရလဒ်များသည် လူသားများ၏ တုံ့ပြန်မှုကို အမြဲတမ်း တိကျစွာ မခန့်မှန်းနိုင်ခြင်း |
 | **အဓိကအသုံးပြုမှု** | ကနဦးဘေးကင်းမှု စစ်ဆေးခြင်း၊ လုပ်ဆောင်ပုံ ယန္တရားလေ့လာခြင်း၊ စောစီးစွာ အာနိသင်စမ်းသပ်ခြင်း | အဆိပ်အတောက်ဖြစ်မှု လေ့လာခြင်း (Toxicology)၊ ဆေးဝါးရွေ့လျားမှု ဗေဒ (Pharmacokinetics)၊ ဥပဒေအရ လိုအပ်သော ဘေးကင်းမှု စမ်းသပ်ခြင်း |
+
 
 ### ကနဦးလေ့လာမှုများက ဘာတွေကို တိုင်းတာသနည်း
 

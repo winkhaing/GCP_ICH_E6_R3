@@ -47,6 +47,7 @@ The sponsor’s core responsibilities include:
 
 ### Reference Table: Core Sponsor Responsibilities
 
+
 | Responsibility | What This Means | Example |
 | --- | --- | --- |
 | **Trial design** | Create the protocol and all supporting documents | Defining patient eligibility criteria, treatment doses, and outcome measures |
@@ -55,6 +56,7 @@ The sponsor’s core responsibilities include:
 | **Oversight and monitoring** | Verify that sites are following the protocol | Sending monitors to review patient records and drug accountability logs |
 | **Data management** | Collect, clean, and analyse trial data | Building databases to capture information from all sites |
 | **Regulatory communication** | Report to FDA and other agencies | Submitting serious adverse event reports within required timelines |
+
 
 ---
 
@@ -106,6 +108,7 @@ CROs can provide virtually any service a sponsor needs to run a clinical trial.
 
 ### Reference Table: Common CRO Services
 
+
 | Service Area | What CROs Provide |
 | --- | --- |
 | **Site monitoring** | Clinical Research Associates who visit sites to verify proper trial conduct |
@@ -116,6 +119,7 @@ CROs can provide virtually any service a sponsor needs to run a clinical trial.
 | **Site selection** | Feasibility assessment, site identification, start-up support |
 | **Patient recruitment** | Enrolment strategies, advertising, community outreach |
 | **Central laboratory** | Sample processing, specialised testing, results reporting |
+
 
 ---
 
@@ -193,7 +197,7 @@ There is no universally correct answer. The best choice depends on Dr. Park’s
 
 ---
 
-Source: 
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/sponsors-and-contract-research-organizations](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/sponsors-and-contract-research-organizations)
 Burmese Version
 
 # စပွန်ဆာများနှင့် ကန်ထရိုက်သုတေသနအဖွဲ့အစည်းများ (Sponsors and Contract Research Organizations)
@@ -236,6 +240,7 @@ Burmese Version
 
 ### ကိုးကားရန်ဇယား - စပွန်ဆာ၏ အဓိကတာဝန်များ (Reference Table: Core Sponsor Responsibilities)
 
+
 | တာဝန် (Responsibility) | ဆိုလိုရင်းအဓိပ္ပာယ် (What This Means) | ဥပမာ (Example) |
 | --- | --- | --- |
 | **စမ်းသပ်မှု ဒီဇိုင်းဆွဲခြင်း***(Trial design)* | ပရိုတိုကောနှင့် ပံ့ပိုးကူညီမှုဆိုင်ရာ စာရွက်စာတမ်းအားလုံးကို ဖန်တီးခြင်း | လူနာရွေးချယ်မှုစံနှုန်းများ (Eligibility Criteria)၊ ကုသမှုပမာဏ (Doses) နှင့် ရလဒ်တိုင်းတာမှုများကို သတ်မှတ်ခြင်း |
@@ -244,6 +249,7 @@ Burmese Version
 | **ကြီးကြပ်ခြင်းနှင့် စောင့်ကြည့်ခြင်း***(Oversight and monitoring)* | စမ်းသပ်ရာနေရာများသည် ပရိုတိုကောကို လိုက်နာခြင်း ရှိ၊ မရှိ စစ်ဆေးအတည်ပြုခြင်း | လူနာမှတ်တမ်းများနှင့် ဆေးဝါးစာရင်းဇယားများကို စစ်ဆေးရန် စောင့်ကြည့်စစ်ဆေးသူများ (Monitors) ကို စေလွှတ်ခြင်း |
 | **အချက်အလက် စီမံခန့်ခွဲခြင်း***(Data management)* | စမ်းသပ်မှုအချက်အလက်များကို စုဆောင်းခြင်း၊ သန့်စင်ခြင်းနှင့် ခွဲခြမ်းစိတ်ဖြာခြင်း | စမ်းသပ်ရာနေရာအားလုံးမှ အချက်အလက်များကို ရယူသိမ်းဆည်းရန် ဒေတာဘေ့စ် (Databases) များ တည်ဆောက်ခြင်း |
 | **စည်းကမ်းထိန်းသိမ်းရေး ဆက်သွယ်မှု***(Regulatory communication)* | FDA နှင့် အခြားအေဂျင်စီများထံ အစီရင်ခံတင်ပြခြင်း | သတ်မှတ်ထားသော အချိန်ကာလအတွင်း ပြင်းထန်သော ဘေးထွက်ဆိုးကျိုး (Serious Adverse Event) အစီရင်ခံစာများကို တင်ပြခြင်း |
+
 
 ---
 
@@ -295,6 +301,7 @@ CRO များသည် စပွန်ဆာတစ်ခုအနေဖြင
 
 ### ကိုးကားရန်ဇယား - အလေ့အထများသော CRO ဝန်ဆောင်မှုများ (Reference Table: Common CRO Services)
 
+
 | ဝန်ဆောင်မှုနယ်ပယ် (Service Area) | CRO များ ပံ့ပိုးပေးသောအရာ (What CROs Provide) |
 | --- | --- |
 | **စမ်းသပ်ရာနေရာ စောင့်ကြည့်ခြင်း***(Site monitoring)* | စမ်းသပ်မှု စနစ်တကျ လုပ်ဆောင်နေခြင်း ရှိ၊ မရှိ စစ်ဆေးရန် နေရာများသို့ သွားရောက်သည့် လက်တွေ့သုတေသနအရာရှိများ (CRAs) |
@@ -305,6 +312,7 @@ CRO များသည် စပွန်ဆာတစ်ခုအနေဖြင
 | **စမ်းသပ်မည့်နေရာ ရွေးချယ်ခြင်း***(Site selection)* | ဖြစ်နိုင်ခြေရှိမှု အကဲဖြတ်ခြင်း (Feasibility Assessment)၊ စမ်းသပ်မည့်နေရာ ရှာဖွေခြင်း၊ စတင်ခြင်းဆိုင်ရာ ပံ့ပိုးမှု |
 | **လူနာစုဆောင်းခြင်း***(Patient recruitment)* | စမ်းသပ်မှုတွင် ပါဝင်ရန် စည်းရုံးခြင်းဗျူဟာများ၊ ကြော်ငြာခြင်း၊ လူထုထံ ကွင်းဆင်းစည်းရုံးခြင်း |
 | **ဗဟိုဓာတ်ခွဲခန်း***(Central laboratory)* | နမူနာများကို စီမံဆောင်ရွက်ခြင်း၊ အထူးပြုစစ်ဆေးမှုများ ပြုလုပ်ခြင်း၊ ရလဒ်များ အစီရင်ခံခြင်း |
+
 
 ---
 
@@ -382,5 +390,6 @@ CRO များသည် စပွန်ဆာတစ်ခုအနေဖြင
 
 ---
 
-Source: 
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/sponsors-and-contract-research-organizations](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/sponsors-and-contract-research-organizations)
 Translated by **Google Gemini (3.5 Flash)**
+

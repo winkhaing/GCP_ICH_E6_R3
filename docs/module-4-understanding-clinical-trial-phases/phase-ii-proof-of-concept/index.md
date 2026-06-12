@@ -54,6 +54,7 @@ The trial designs also change. While Phase I often used open-label designs where
 
 ### Reference Table: Key Differences — Phase I vs. Phase II
 
+
 | Characteristic | Phase I | Phase II |
 | --- | --- | --- |
 | **Primary objective** | Safety and tolerability | Preliminary efficacy and dose-finding |
@@ -64,6 +65,7 @@ The trial designs also change. While Phase I often used open-label designs where
 | **Control group** | Often none | Placebo or active comparator |
 | **Primary endpoints** | Safety measures, pharmacokinetics | Efficacy measures, dose-response |
 | **Decision at conclusion** | Can we test in patients? | Should we proceed to Phase III? |
+
 
 ---
 
@@ -122,12 +124,14 @@ These design features come at a cost. Randomised controlled trials are more comp
 
 ### Types of Control Groups in Phase II
 
+
 | Control Type | Description | Appropriate When |
 | --- | --- | --- |
 | **Placebo control** | Participants receive an inactive treatment | No effective treatment exists; gold standard for detecting efficacy |
 | **Active comparator** | Participants receive an existing approved treatment | Withholding treatment would be unethical |
 | **Dose-ranging control** | Different dose groups serve as controls for each other | Dose-finding; does not establish efficacy vs. no treatment |
 | **Historical control** | Comparison to outcomes from previous studies | Weaker evidence due to potential population differences |
+
 
 ---
 
@@ -276,6 +280,7 @@ Burmese Version
 
 ### ကိုးကားဇယား - အဓိကကွာခြားချက်များ — အဆင့် ၁ နှင့် အဆင့် ၂ (Key Differences — Phase I vs. Phase II)
 
+
 | ဝိသေသလက္ခဏာ | အဆင့် ၁ (Phase I) | အဆင့် ၂ (Phase II) |
 | --- | --- | --- |
 | **အဓိက ရည်ရွယ်ချက်** | ဘေးကင်းလုံခြုံမှုနှင့် ခန္ဓာကိုယ်ခံနိုင်ရည်ရှိမှု | ကနဦးအာနိသင်ပြသမှုနှင့် ဆေးပမာဏရှာဖွေခြင်း |
@@ -286,6 +291,7 @@ Burmese Version
 | **နှိုင်းယှဉ်ချက်အုပ်စု** | များသောအားဖြင့် မပါဝင်ပါ | စိတ်အာနိသင်ပြဆေး သို့မဟုတ် စံဆေးဝါး |
 | **အဓိက ရလဒ်တိုင်းတာချက်** | ဘေးကင်းမှု တိုင်းတာချက်များ၊ ဆေးဝါးရွေ့လျားမှုဗေဒ | အာနိသင် တိုင်းတာချက်များ၊ ဆေးပမာဏနှင့်တုံ့ပြန်မှုဆက်စပ်မှု |
 | **နိဂုံးချုပ် ဆုံးဖြတ်ချက်** | လူနာတွေမှာ ဆက်လက်စမ်းသပ်လို့ ရ၊ မရ။ | အဆင့် ၃ အထိ ရှေ့ဆက်သင့်၊ မသင့်။ |
+
 
 ---
 
@@ -345,12 +351,14 @@ Phase IIb လေ့လာမှုများသည် ပုံမှန်အ
 
 ### အဆင့် ၂ ရှိ နှိုင်းယှဉ်ချက်အုပ်စု အမျိုးအစားများ
 
+
 | နှိုင်းယှဉ်ချက်အုပ်စု အမျိုးအစား | ဖော်ပြချက် | မည်သည့်အခါတွင် သင့်တော်သနည်း |
 | --- | --- | --- |
 | **စိတ်အာနိသင်ပြဆေး ထိန်းချုပ်မှု (Placebo control)** | ပါဝင်သူများသည် အာနိသင်မရှိသော ဟန်ပြကုသမှုကို ခံယူသည် | ထိရောက်သော ကုသမှု မရှိသေးသောအခါ; ဆေး၏ စစ်မှန်သော အာနိသင်ကို ဖော်ထုတ်ရန် အမြင့်ဆုံးစံနှုန်း ဖြစ်သည် |
 | **စံဆေးဝါး ထိန်းချုပ်မှု (Active comparator)** | ပါဝင်သူများသည် လက်ရှိအတည်ပြုထားသော စံကုထုံးကို ခံယူသည် | ကုသမှုမပေးဘဲ ထားရှိခြင်းက ကျင့်ဝတ်အရ မှားယွင်းနေမည့် အခြေအနေမျိုးတွင် သုံးသည် |
 | **ဆေးပမာဏအချင်းချင်း နှိုင်းယှဉ်မှု (Dose-ranging control)** | မတူညီသော ဆေးပမာဏအုပ်စုများက အချင်းချင်း နှိုင်းယှဉ်ချက်အုပ်စုအဖြစ် ဆောင်ရွက်သည် | ဆေးပမာဏရှာဖွေရန် သုံးသည်; သို့သော် မည်သည့်ဆေးမျှမသောက်သော အုပ်စုနှင့် နှိုင်းယှဉ်ချက်ကိုမူ သက်သေမပြနိုင်ပါ |
 | **သမိုင်းဝင်မှတ်တမ်း ထိန်းချုပ်မှု (Historical control)** | ယခင်လုပ်ဆောင်ခဲ့ဖူးသော လေ့လာမှုများမှ ရလဒ်များနှင့် နှိုင်းယှဉ်သည် | လူဦးရေအုပ်စု ကွဲပြားခြားနားနိုင်မှုကြောင့် သက်သေအထောက်အထား အားနည်းသည် |
+
 
 ---
 

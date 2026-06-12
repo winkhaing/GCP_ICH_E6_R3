@@ -71,6 +71,7 @@ Understanding why people volunteer for research helps us appreciate the diversit
 
 ### Reference Table: Common Motivations for Trial Participation
 
+
 | Motivation | What This Means | Example |
 | --- | --- | --- |
 | **Access to new treatments** | The trial offers a medication not yet available | A patient with advanced cancer who has exhausted standard options |
@@ -81,6 +82,7 @@ Understanding why people volunteer for research helps us appreciate the diversit
 | **Hope when standard treatments have failed** | Trials represent a chance when conventional medicine has not worked | A patient who has tried multiple treatments without success |
 | **Free access to care** | Some trials provide treatment and visits at no cost | An uninsured patient can receive high-quality care during the trial |
 | **Personal connection to the disease** | Family history or lived experience creates motivation | A woman whose mother died of Alzheimer’s disease volunteers for prevention research |
+
 These motivations are not mutually exclusive, and they are not ranked by nobility. A participant who joins primarily for financial compensation is not less worthy than one motivated purely by altruism. What matters is that their participation is informed and voluntary.
 
 ---
@@ -295,6 +297,7 @@ Burmese Version
 
 ### ကိုးကားရန်ဇယား - စမ်းသပ်မှုတွင် ပါဝင်ရခြင်း၏ အလေ့အထများသော တွန်းအားများ (Common Motivations)
 
+
 | တွန်းအား (Motivation) | ဆိုလိုရင်းအဓိပ္ပာယ် (What This Means) | ဥပမာ (Example) |
 | --- | --- | --- |
 | **ကုထုံးသစ်များကို အသုံးပြုခွင့်ရခြင်း** | ဈေးကွက်ထဲတွင် မရရှိနိုင်သေးသော ဆေးဝါးများကို စမ်းသပ်ခွင့်ရခြင်း | ပုံမှန်ကုထုံးများအားလုံး စမ်းသပ်ပြီးသော်လည်း မသက်သာသည့် အဆင့်မြင့်ကင်ဆာလူနာ |
@@ -305,6 +308,7 @@ Burmese Version
 | **ပုံမှန်ကုထုံးများ မအောင်မြင်သည့်အခါ မျှော်လင့်ချက်** | သာမန်ဆေးဝါးများ မတိုးတော့သည့်အခါ စမ်းသပ်မှုများသည် အခွင့်အလမ်းတစ်ခု ဖြစ်လာခြင်း | ဆေးဝါးမျိုးစုံ စမ်းသပ်ခဲ့သော်လည်း ရလဒ်မထွက်ခဲ့သော လူနာ |
 | **အခမဲ့ ဆေးကုသခွင့် ရရှိခြင်း** | အချို့သော စမ်းသပ်မှုများသည် ကုသမှုနှင့် ရက်ချိန်းပြသမှုများကို အခမဲ့ ပေးစွမ်းခြင်း | ကျန်းမာရေးအာမခံမရှိသော်လည်း စမ်းသပ်မှုအတွင်း အရည်အသွေးမြင့် စောင့်ရှောက်မှု ခံယူလိုသော လူနာ |
 | **ရောဂါနှင့် မိမိကိုယ်တိုင် ပတ်သက်မှုရှိခြင်း** | မိသားစုရာဇဝင် သို့မဟုတ် ကိုယ်တိုင်ကြုံတွေ့ရမှုကြောင့် တွန်းအားဖြစ်ခြင်း | မိခင်ဖြစ်သူ အယ်လ်ဇိုင်းမားရောဂါဖြင့် ကွယ်လွန်သွားသဖြင့် ကာကွယ်ရေးသုတေသနတွင် ပါဝင်ပေးသော အမျိုးသမီး |
+
 ဤတွန်းအားများသည် တစ်ခုနှင့်တစ်ခု ဖယ်ထုတ်ထားသောအရာများ မဟုတ်ကြဘဲ၊ မည်သည့်အရာက ပိုမိုမွန်မြတ်သည်ဟု အဆင့်သတ်မှတ်၍မရပါ။ ငွေကြေးထောက်ပံ့မှုကြောင့် အဓိကပါဝင်သူတစ်ဦးသည် သူတစ်ပါးကို ကူညီလိုစိတ်သက်သက်ဖြင့် ပါဝင်သူထက် တန်ဖိုးနည်းပါးသွားခြင်း မရှိပါ။ အရေးကြီးဆုံးမှာ ၎င်းတို့၏ ပါဝင်မှုသည် အချက်အလက်များကို သေချာစွာသိရှိပြီး မိမိသဘောဆန္ဒအလျောက် ဖြစ်ရန်သာ ဖြစ်သည်။
 
 ---

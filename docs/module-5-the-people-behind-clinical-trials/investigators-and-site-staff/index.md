@@ -54,6 +54,7 @@ The PI’s responsibilities span the entire trial, from before the first partici
 
 ### Reference Table: Principal Investigator Core Responsibilities
 
+
 | Area | What This Means | Why It Matters |
 | --- | --- | --- |
 | **Medical oversight** | Assess participant safety, make medical decisions, provide appropriate care | Participants depend on physician judgment to protect their health |
@@ -62,6 +63,7 @@ The PI’s responsibilities span the entire trial, from before the first partici
 | **Safety reporting** | Report serious adverse events to sponsor and IRB promptly | Early detection of problems can prevent harm to other participants |
 | **Team supervision** | Build, train, and oversee the site team | Quality research requires qualified people doing their jobs well |
 | **Documentation** | Maintain accurate records of everything that happens | If it wasn’t documented, it didn’t happen — at least for regulatory purposes |
+
 > **The Non-Delegable Responsibility**
 The PI can delegate tasks, but cannot delegate responsibility. When the PI asks a coordinator to obtain informed consent from a new participant, the PI is delegating the task of conducting the consent discussion. But if that consent is later found to be inadequate, the PI remains responsible. The PI should have ensured the coordinator was properly trained, supervised their work, and verified that consent was done correctly.
 
@@ -161,11 +163,13 @@ Not just anyone can serve as a Principal Investigator. Regulators and sponsors e
 
 ### Reference Table: The Three Pillars of Investigator Qualification
 
+
 | Pillar | What It Includes | How It Is Documented |
 | --- | --- | --- |
 | **Education** | Medical degree and specialty experience | Curriculum vitae, diplomas, board certificates |
 | **Training** | GCP certification, protocol training, therapeutic area knowledge | Training certificates, sign-off logs, dated records |
 | **Experience** | Prior research involvement, understanding of trial conduct | CV listing previous trials, roles, and therapeutic areas |
+
 
 ---
 
@@ -228,6 +232,7 @@ Dr. Foster currently has a busy clinical practice, one medical assistant, no pr
 ---
 
 Source: 
+[https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff)
 Burmese Version
 
 # သုတေသနပညာရှင်များနှင့် စမ်းသပ်ရာနေရာရှိ ဝန်ထမ်းများ (Investigators and Site Staff)
@@ -277,6 +282,7 @@ PI ၏ တာဝန်ဝတ္တရားများသည် ပထမဆု
 
 ### ကိုးကားရန်ဇယား - အဓိကသုတေသနပညာရှင်၏ အဓိကတာဝန်များ (Principal Investigator Core Responsibilities)
 
+
 | နယ်ပယ် (Area) | ဆိုလိုရင်းအဓိပ္ပာယ် (What This Means) | အဘယ်ကြောင့် အရေးကြီးသနည်း (Why It Matters) |
 | --- | --- | --- |
 | **ဆေးဘက်ဆိုင်ရာ ကြီးကြပ်မှု***(Medical oversight)* | ပါဝင်သူ၏ ဘေးကင်းမှုကို အကဲဖြတ်ခြင်း၊ ဆေးဘက်ဆိုင်ရာ ဆုံးဖြတ်ချက်များချခြင်း၊ သင့်လျော်သော စောင့်ရှောက်မှုပေးခြင်း | ပါဝင်သူများသည် မိမိတို့ကျန်းမာရေး ကာကွယ်စောင့်ရှောက်မှုအတွက် ဆရာဝန်၏ အဆုံးအဖြတ်အပေါ် မှီခိုနေရခြင်း |
@@ -285,6 +291,7 @@ PI ၏ တာဝန်ဝတ္တရားများသည် ပထမဆု
 | **ဘေးကင်းလုံခြုံမှု အစီရင်ခံခြင်း***(Safety reporting)* | ပြင်းထန်သော ဆိုးကျိုးဖြစ်ရပ်များကို စပွန်ဆာနှင့် IRB ထံ အချိန်မီ အစီရင်ခံ တင်ပြခြင်း | ပြဿနာများကို စောစီးစွာ ရှာဖွေတွေ့ရှိခြင်းဖြင့် အခြားပါဝင်သူများ ထိခိုက်နစ်နာမှုမရှိအောင် ကြိုတင်ကာကွယ်နိုင်ခြင်း |
 | **အဖွဲ့အစည်းကို ကြီးကြပ်ခြင်း***(Team supervision)* | စမ်းသပ်ရာနေရာရှိ အဖွဲ့ကို တည်ဆောက်ခြင်း၊ လေ့ကျင့်ပေးခြင်းနှင့် ကြီးကြပ်ခြင်း | အရည်အသွေးမြင့် သုတေသနဖြစ်ရန် အရည်အချင်းရှိသူများက မိမိတို့အလုပ်ကို ကောင်းမွန်စွာ လုပ်ဆောင်ရန် လိုအပ်ခြင်း |
 | **စာရွက်စာတမ်း မှတ်တမ်းတင်ခြင်း***(Documentation)* | ဖြစ်ပျက်သမျှ အရာအားလုံးကို တိကျမှန်ကန်စွာ မှတ်တမ်းတင် ထိန်းသိမ်းခြင်း | စည်းကမ်းထိန်းသိမ်းရေးအဖွဲ့၏ အလိုအရ - မှတ်တမ်းမတင်ထားလျှင် ၎င်းအရာသည် မဖြစ်ပျက်ခဲ့သကဲ့သို့ပင် ဖြစ်ခြင်း |
+
 > **လွှဲအပ်၍မရသော တာဝန်ဝတ္တရား (The Non-Delegable Responsibility)**
 PI သည် လုပ်ငန်းတာဝန်များကို လွှဲအပ်နိုင်သော်လည်း၊ တာဝန်ခံမှုကိုမူ လွှဲအပ်၍မရပါ။ PI က ညှိနှိုင်းရေးမှူးအား လူနာသစ်တစ်ဦးထံမှ အသိပေးသဘောတူညီချက် ရယူရန် တာဝန်ပေးသည့်အခါ၊ ၎င်းသည် ဆွေးနွေးခြင်းလုပ်ငန်းစဉ်ကိုသာ လွှဲအပ်ခြင်း ဖြစ်သည်။ သို့သော် အကယ်၍ နောင်တွင် ၎င်းသဘောတူညီချက်ရယူမှုသည် မပြည့်စုံကြောင်း တွေ့ရှိရပါက PI တွင်သာ တာဝန်ရှိသည်။ PI အနေဖြင့် ညှိနှိုင်းရေးမှူးကို စနစ်တကျ လေ့ကျင့်သင်ကြားပေးထားခြင်း ရှိ၊ မရှိ၊ ၎င်း၏လုပ်ငန်းကို ကြီးကြပ်ခြင်း ရှိ၊ မရှိ နှင့် သဘောတူညီချက် မှန်ကန်စွာရယူထားခြင်း ရှိ၊ မရှိကို စစ်ဆေးအတည်ပြုရန် လိုအပ်သည်။
 
@@ -384,11 +391,13 @@ CRC များသည် နောက်ခံအမျိုးမျိုး
 
 ### ကိုးကားရန်ဇယား - သုတေသနပညာရှင် အရည်အချင်း၏ မဏ္ဍိုင်သုံးရပ် (The Three Pillars of Investigator Qualification)
 
+
 | မဏ္ဍိုင် (Pillar) | ပါဝင်သောအရာများ (What It Includes) | မည်သို့ စာရွက်စာတမ်း သက်သေပြသနည်း (How It Is Documented) |
 | --- | --- | --- |
 | **ပညာအရည်အချင်း***(Education)* | ဆေးပညာဘွဲ့နှင့် အထူးပြုဘာသာရပ်ဆိုင်ရာ အတွေ့အကြုံ | ကိုယ်ရေးရာဇဝင်အကျဉ်း (CV)၊ ဘွဲ့လက်မှတ်များ၊ ဘုတ်အဖွဲ့ဝင်လက်မှတ်များ |
 | **လေ့ကျင့်သင်ကြားမှု***(Training)* | GCP သင်တန်းဆင်းလက်မှတ်၊ ပရိုတိုကောသင်တန်း၊ ကုထုံးနယ်ပယ်ဆိုင်ရာ အသိပညာ | သင်တန်းဆင်းလက်မှတ်များ၊ အတည်ပြုလက်မှတ်ရေးထိုးထားသော မှတ်တမ်းများ |
 | **အတွေ့အကြုံ***(Experience)* | ယခင်က သုတေသနလုပ်ငန်းများတွင် ပါဝင်ခဲ့မှု၊ စမ်းသပ်မှုလည်ပတ်ပုံကို နားလည်မှု | ယခင်က လုပ်ဆောင်ခဲ့သော စမ်းသပ်မှုများ၊ အခန်းကဏ္ဍများနှင့် ကုထုံးနယ်ပယ်များ ဖော်ပြထားသည့် CV |
+
 
 ---
 
@@ -450,5 +459,6 @@ CRC များသည် နောက်ခံအမျိုးမျိုး
 
 ---
 
-Source: 
+Source: [https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff](https://www.freegcp.com/learn/clinical-research-foundations/the-people-behind-clinical-trials/investigators-and-site-staff)
 Translated by **Google Gemini (3.5 Flash)**
+

@@ -48,12 +48,14 @@ This diversity is intentional. Regulations require that ethics committees includ
 
 ### Reference Table: Required IRB/IEC Composition
 
+
 | Member Type | Purpose | Example |
 | --- | --- | --- |
 | **Scientific member** | Evaluate methodology and scientific merit | Oncologist, pharmacologist, statistician |
 | **Non-scientific member** | Represent lay perspective, assess readability of materials | Teacher, community leader, clergy member |
 | **Unaffiliated member** | Provide independence from institutional interests | Community volunteer with no institutional ties |
 | **Diverse representation** | Ensure varied perspectives including gender, culture, profession | Committee reflects the population being researched |
+
 
 ---
 
@@ -122,6 +124,7 @@ Federal policy now requires single IRB review for most multi-site studies. The N
 
 ### Reference Table: Central IRB vs. Local IRB Models
 
+
 | Aspect | Local IRB Model | Central IRB Model |
 | --- | --- | --- |
 | **Review responsibility** | Each site’s own IRB reviews the protocol | One IRB serves as the IRB of record for all sites |
@@ -129,6 +132,7 @@ Federal policy now requires single IRB review for most multi-site studies. The N
 | **Timeline** | Multiple parallel reviews can cause delays | Single review process, faster start-up |
 | **Local context** | IRB deeply familiar with local community | May require local site input on community-specific issues |
 | **Current trend** | Being replaced for multi-site studies | Required for most federally funded multi-site research |
+
 
 ---
 
@@ -165,6 +169,7 @@ Ethics committee review is separate but parallel. Each member state has its own 
 
 ## Other Major Regulatory Authorities
 
+
 | Authority | Jurisdiction | Key Application | Notable Feature |
 | --- | --- | --- | --- |
 | **FDA** | United States | IND (drugs/biologics), IDE (devices) | 30-day review; clinical hold if concerns |
@@ -174,6 +179,7 @@ Ethics committee review is separate but parallel. Each member state has its own 
 | **PMDA** | Japan | Clinical Trial Notification | Active in global harmonisation efforts |
 | **TGA** | Australia | CTN or CTA pathway | Popular for early-phase research |
 | **NMPA** | China | Clinical Trial Application | Regulatory reforms for international access |
+
 
 ---
 
@@ -288,12 +294,14 @@ IRB အစည်းအဝေးတစ်ခုသို့ ဝင်ရောက
 
 ### ကိုးကားရန်ဇယား - လိုအပ်သော IRB/IEC ဖွဲ့စည်းပုံ (Required IRB/IEC Composition)
 
+
 | အဖွဲ့ဝင်အမျိုးအစား (Member Type) | ရည်ရွယ်ချက် (Purpose) | ဥပမာ (Example) |
 | --- | --- | --- |
 | **သိပ္ပံနည်းကျ အဖွဲ့ဝင်***(Scientific member)* | နည်းစနစ်ပိုင်းနှင့် သိပ္ပံနည်းကျ တန်ဖိုးများကို အကဲဖြတ်ရန် | ကင်ဆာဆရာဝန်၊ ဆေးဝါးဗေဒပညာရှင်၊ စာရင်းအင်းပညာရှင် |
 | **သိပ္ပံနည်းကျမဟုတ်သော အဖွဲ့ဝင်***(Non-scientific member)* | သာမန်လူထု၏ အမြင်ကို ကိုယ်စားပြုရန်၊ စာရွက်စာတမ်းများ၏ ဖတ်ရှုနားလည်နိုင်စွမ်းကို အကဲဖြတ်ရန် | ကျောင်းဆရာ၊ လူမှုထုခေါင်းဆောင်၊ ဘာသာရေးဆရာ |
 | **ပတ်သက်မှုမရှိသော အဖွဲ့ဝင်***(Unaffiliated member)* | အဖွဲ့အစည်းဆိုင်ရာ အကျိုးစီးပွားများမှ လွတ်လပ်မှုရှိစေရန် | အဆိုပါအဖွဲ့အစည်းနှင့် မည်သည့်ပတ်သက်မှုမျှမရှိသော လူထုစေတနာ့ဝန်ထမ်း |
 | **စုံလင်ကွဲပြားသော ကိုယ်စားပြုမှု***(Diverse representation)* | ကျား၊ မ၊ ယဉ်ကျေးမှုနှင့် သက်မွေးဝမ်းကျောင်းဆိုင်ရာ ကွဲပြားသောအမြင်များ ရရှိစေရန် | ကော်မတီသည် သုတေသနပြုမည့် လူဦးရေထုကို ထင်ဟပ်စေခြင်း |
+
 
 ---
 
@@ -362,6 +370,7 @@ IRB အစည်းအဝေးတစ်ခုသို့ ဝင်ရောက
 
 ### ကိုးကားရန်ဇယား - ဗဟို IRB နှင့် ဒေသခံ IRB ပုံစံများ နှိုင်းယှဉ်ချက် (Central IRB vs. Local IRB Models)
 
+
 | ရှုထောင့် (Aspect) | ဒေသခံ IRB ပုံစံ (Local IRB Model) | ဗဟို IRB ပုံစံ (Central IRB Model) |
 | --- | --- | --- |
 | **ပြန်လည်သုံးသပ်မှု တာဝန်** | နေရာတစ်ခုစီ၏ ကိုယ်ပိုင် IRB က ပရိုတိုကောကို ပြန်လည်သုံးသပ်သည် | IRB တစ်ခုတည်းကသာ နေရာအားလုံးအတွက် တရားဝင် IRB အဖြစ် ဆောင်ရွက်သည် |
@@ -369,6 +378,7 @@ IRB အစည်းအဝေးတစ်ခုသို့ ဝင်ရောက
 | **အချိန်ကာလ** | ပြိုင်တူလုပ်ဆောင်ရသော ပြန်လည်သုံးသပ်မှုများပြားသဖြင့် ကြန့်ကြာမှုများ ဖြစ်နိုင်သည် | ပြန်လည်သုံးသပ်မှု လုပ်ငန်းစဉ်တစ်ခုတည်းသာဖြစ်သဖြင့် စတင်ရကျိုးနပ်ပြီး ပိုမိုမြန်ဆန်သည် |
 | **ဒေသဆိုင်ရာ အခြေအနေ** | IRB သည် မိမိဒေသခံ လူမှုအသိုင်းအဝိုင်းကို ကောင်းစွာ ရင်းနှီးကျွမ်းဝင်မှုရှိသည် | လူမှုအသိုင်းအဝိုင်းနှင့် သက်ဆိုင်သော ကိစ္စရပ်များအတွက် ဒေသခံနေရာ၏ အကြံပြုချက် လိုအပ်နိုင်သည် |
 | **လက်ရှိ ခေတ်ရေစီးကြောင်း** | နေရာအများအပြားပါဝင်သော စမ်းသပ်မှုများအတွက် အစားထိုးခြင်း ခံနေရသည် | အစိုးရရန်ပုံငွေပံ့ပိုးသော နေရာအများအပြားပါဝင်သည့် သုတေသနအများစုအတွက် မဖြစ်မနေ လိုအပ်သည် |
+
 
 ---
 
@@ -405,6 +415,7 @@ FDA သည် စမ်းသပ်ဆဲထုတ်ကုန်များသ
 
 ## အခြား အဓိကကျသော စည်းကမ်းထိန်းသိမ်းရေး အာဏာပိုင်များ (Other Major Regulatory Authorities)
 
+
 | အာဏာပိုင်အဖွဲ့ (Authority) | လုပ်ပိုင်ခွင့်နယ်ပယ် (Jurisdiction) | အဓိက လျှောက်လွှာ (Key Application) | မှတ်သားဖွယ် အင်္ဂါရပ် (Notable Feature) |
 | --- | --- | --- | --- |
 | **FDA** | အမေရိကန် ပြည်ထောင်စု | IND (ဆေးဝါး/ဇီဝထုတ်ကုန်)၊ IDE (စက်ပစ္စည်း) | ရက် ၃၀ ပြန်လည်သုံးသပ်မှု၊ စိုးရိမ်စရာရှိပါက စမ်းသပ်မှုဆိုင်းငံ့ခြင်း (Clinical Hold) ပြုလုပ်နိုင်ခြင်း |
@@ -414,6 +425,7 @@ FDA သည် စမ်းသပ်ဆဲထုတ်ကုန်များသ
 | **PMDA** | ဂျပန် | လက်တွေ့စမ်းသပ်မှု အကြောင်းကြားစာ | ကမ္ဘာလုံးဆိုင်ရာ ဟာမိုနီဇေးရှင်း ကြိုးပမ်းမှုများတွင် တက်ကြွစွာ ပါဝင်ခြင်း |
 | **TGA** | သြစတြေးလျ | CTN သို့မဟုတ် CTA လမ်းကြောင်း | စောစောပိုင်းအဆင့် သုတေသနများ (Early-phase research) အတွက် လူကြိုက်များခြင်း |
 | **NMPA** | တရုတ် | လက်တွေ့စမ်းသပ်မှု လျှောက်လွှာ | နိုင်ငံတကာမှ ဝင်ရောက်နိုင်ရန်အတွက် စည်းကမ်းထိန်းသိမ်းရေးဆိုင်ရာ ပြုပြင်ပြောင်းလဲမှုများ လုပ်ဆောင်ခြင်း |
+
 
 ---
 

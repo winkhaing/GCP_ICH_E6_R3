@@ -75,6 +75,7 @@ Phase I units are not like other parts of a hospital. Participants stay on the u
 
 ## Reference Table: Comparison of Clinical Trial Phases
 
+
 | Characteristic | Phase I | Phase II | Phase III |
 | --- | --- | --- | --- |
 | **Primary objective** | Safety, tolerability, PK/PD | Efficacy signals, dosing | Definitive efficacy and safety |
@@ -83,6 +84,7 @@ Phase I units are not like other parts of a hospital. Participants stay on the u
 | **Duration** | Weeks to months | Months to 1–2 years | 1–4 years |
 | **Comparator** | Often none (open-label) | Often placebo-controlled | Active comparator or placebo |
 | **Primary endpoint** | Safety, MTD, PK parameters | Efficacy biomarkers, dose-response | Clinical outcomes |
+
 
 ---
 
@@ -95,6 +97,7 @@ This conservative approach means the first human dose is typically well below wh
 
 ### Timeline: The Path to First-in-Human Dosing
 
+
 | Stage | Timeframe |
 | --- | --- |
 | Discovery and preclinical | Years 1–3: Drug candidate identified, tested in laboratory and animal studies |
@@ -103,6 +106,7 @@ This conservative approach means the first human dose is typically well below wh
 | IND active | Month 2: FDA does not object; clinical trial may proceed |
 | FIH dosing | Month 3: First human receives first dose under intensive monitoring |
 | Dose escalation | Months 4–12: Successive cohorts receive increasing doses to establish MTD |
+
 
 ---
 
@@ -154,6 +158,7 @@ When a Phase I participant receives an experimental drug, blood samples are coll
 
 ### Reference Table: Key Pharmacokinetic Parameters
 
+
 | Parameter | Definition | Clinical Significance |
 | --- | --- | --- |
 | **Cmax** | Maximum blood concentration achieved | Relates to peak effects and acute toxicity |
@@ -163,6 +168,7 @@ When a Phase I participant receives an experimental drug, blood samples are coll
 | **Clearance (CL)** | Volume of blood cleared of drug per unit time | Measures elimination efficiency; affects dosing |
 | **Volume of distribution (Vd)** | Theoretical volume to contain total drug at blood concentration | Indicates tissue distribution; affects loading doses |
 | **Bioavailability (F)** | Fraction of dose reaching systemic circulation | Compares routes of administration; guides dose selection |
+
 
 ---
 
@@ -285,6 +291,7 @@ Burmese Version
 
 ## ကိုးကားဇယား - လက်တွေ့စမ်းသပ်မှု အဆင့်ဆင့် နှိုင်းယှဉ်ချက် (Reference Table: Comparison of Clinical Trial Phases)
 
+
 | ဝိသေသလက္ခဏာ | အဆင့် ၁ (Phase I) | အဆင့် ၂ (Phase II) | အဆင့် ၃ (Phase III) |
 | --- | --- | --- | --- |
 | **အဓိက ရည်ရွယ်ချက်** | ဘေးကင်းလုံခြုံမှု၊ ခန္ဓာကိုယ်ခံနိုင်ရည်ရှိမှု၊ PK/PD | အာနိသင်ပြ ညွှန်းကိန်းများ၊ ဆေးပမာဏသတ်မှတ်ခြင်း | အပြီးသတ် အာနိသင်နှင့် ဘေးကင်းလုံခြုံမှု |
@@ -293,6 +300,7 @@ Burmese Version
 | **ကြာချိန်** | ရက်သတ္တပတ်မှ လပိုင်းအထိ | လပိုင်းမှ ၁–၂ နှစ်အထိ | ၁–၄ နှစ်အထိ |
 | **နှိုင်းယှဉ်ချက်အုပ်စု** | များသောအားဖြင့် မပါဝင်ပါ (Open-label) | များသောအားဖြင့် စိတ်အာနိသင်ပြဆေးဖြင့် ထိန်းချုပ်သည် | စံကုထုံး သို့မဟုတ် စိတ်အာနိသင်ပြဆေးဖြင့် ထိန်းချုပ်သည် |
 | **အဓိက ရလဒ်တိုင်းတာချက်** | ဘေးကင်းမှု၊ MTD၊ PK ကန့်သတ်ချက်များ | အာနိသင်ပြ ဇီဝမှတ်တမ်းများ၊ ဆေးပမာဏ တုံ့ပြန်မှုပုံစံ | လက်တွေ့ ဆေးကုသမှုဆိုင်ရာ ရလဒ်များ |
+
 
 ---
 
@@ -305,6 +313,7 @@ FIH လေ့လာမှုများသည် ကြီးကြပ်ရေ
 
 ### အချိန်မှတ်တမ်း - လူသားတွင် ပထမဆုံး စမ်းသပ်တိုက်ကျွေးခြင်းဆီသို့ လမ်းကြောင်း
 
+
 | အဆင့် | အချိန်ကာလ |
 | --- | --- |
 | ရှာဖွေတွေ့ရှိမှုနှင့် ကနဦးဓာတ်ခွဲခန်းအဆင့် | Years 1–3: ဆေးဝါးလောင်းလျာကို ဖော်ထုတ်ပြီး ဓာတ်ခွဲခန်းနှင့် တိရစ္ဆာန်လေ့လာမှုများတွင် စမ်းသပ်ခြင်း |
@@ -313,6 +322,7 @@ FIH လေ့လာမှုများသည် ကြီးကြပ်ရေ
 | IND အာဏာသက်ဝင်ခြင်း | Month 2: FDA က ကန့်ကွက်မှုမပြုလုပ်ပါက လက်တွေ့စမ်းသပ်မှုကို ရှေ့ဆက်လုပ်ဆောင်ခွင့် ရရှိခြင်း |
 | FIH တိုက်ကျွေးခြင်း | Month 3: ပထမဆုံးသော လူသားစေတနာ့ဝန်ထမ်းက အနီးကပ်အထူးစောင့်ကြည့်မှုအောက်တွင် ပထမဆုံးဆေးပမာဏကို ခံယူခြင်း |
 | ဆေးပမာဏ အဆင့်ဆင့်တိုးမြှင့်ခြင်း | Months 4–12: စဉ်ဆက်မပြတ်သော အုပ်စုများက ခန္ဓာကိုယ်အမြင့်ဆုံးခံနိုင်ရည်ဆေးပမာဏ (MTD) ကို ထူထောင်ရန် ဆေးပမာဏ တိုးမြှင့်ခံယူခြင်း |
+
 
 ---
 
@@ -364,6 +374,7 @@ FIH လေ့လာမှုများသည် ကြီးကြပ်ရေ
 
 ### ကိုးကားဇယား - အဓိက ဆေးဝါးရွေ့လျားမှုဗေဒ ကန့်သတ်ချက်များ (Key Pharmacokinetic Parameters)
 
+
 | ကန့်သတ်ချက် | အဓိပ္ပာယ်ဖွင့်ဆိုချက် | ဆေးကုသမှုဆိုင်ရာ အရေးကြီးမှု |
 | --- | --- | --- |
 | **Cmax** | သွေးတွင်း အမြင့်ဆုံး ရောက်ရှိသော ဆေးဝါးပမာဏ | အမြင့်ဆုံး အာနိသင် သို့မဟုတ် စူးရှသော အဆိပ်အတောက်ဖြစ်မှုများနှင့် ဆက်စပ်နေခြင်း |
@@ -373,6 +384,7 @@ FIH လေ့လာမှုများသည် ကြီးကြပ်ရေ
 | **Clearance (CL)** | အချိန်တစ်ခုအတွင်း ဆေးဝါးများ လုံးဝကင်းစင်သွားအောင် လုပ်ဆောင်နိုင်သည့် သွေးပမာဏ | ခန္ဓာကိုယ်၏ ဆေးဖယ်ရှားမှု ထိရောက်မှုကို တိုင်းတာခြင်း; ဆေးပမာဏ သတ်မှတ်ခြင်းအပေါ် သက်ရောက်ခြင်း |
 | **Volume of distribution (Vd)** | ဆေးဝါးများ သွေးတွင်းပမာဏအတိုင်း တစ်ကိုယ်လုံး ပျံ့နှံ့ရန် လိုအပ်မည့် သီအိုရီအရ ခန္ဓာကိုယ်အရည်ထုထည် | ဆေးဝါးများ တစ်ရှူးအတွင်း ပျံ့နှံ့မှုကို ပြခြင်း; ကနဦး ဆေးပမာဏ (Loading doses) အပေါ် သက်ရောက်ခြင်း |
 | **Bioavailability (F)** | တိုက်ကျွေးလိုက်သော ဆေးပမာဏအနက် သွေးလှည့်ပတ်မှုစနစ်ထဲသို့ အမှန်တကယ် ရောက်ရှိသွားသော အချိုးအစား | မတူညီသော ဆေးပေးသည့် လမ်းကြောင်းများကို နှိုင်းယှဉ်ခြင်း; ဆေးပမာဏ ရွေးချယ်ခြင်းကို လမ်းညွှန်ခြင်း |
+
 
 ---
 

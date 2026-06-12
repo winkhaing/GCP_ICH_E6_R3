@@ -65,6 +65,7 @@ This is what clinical trials can do that observational studies cannot: they can 
 
 ### Timeline: Clinical trials that revealed unexpected harms
 
+
 | Year | Event |
 | --- | --- |
 | 1961 | **Thalidomide** — First marketed in Germany in 1957, its link to severe birth defects was identified in 1961. An estimated 10,000 or more children were affected worldwide, leading to modern drug testing requirements |
@@ -72,6 +73,7 @@ This is what clinical trials can do that observational studies cannot: they can 
 | 2002 | **Hormone therapy** — Women’s Health Initiative revealed that combined estrogen-plus-progestin therapy increased cardiovascular risk, contrary to decades of medical belief |
 | 2004 | **COX-2 inhibitors** — A major pain reliever was withdrawn from the market after trials revealed increased heart attack risk; led to enhanced post-marketing surveillance |
 | 2007 | **Diabetes medication** — A widely used diabetes drug was found in meta-analyses to increase heart attack risk, leading to new FDA requirements for cardiovascular safety testing in diabetes drugs |
+
 
 ---
 
@@ -93,6 +95,7 @@ More recently, the development of COVID-19 vaccines demonstrated what clinical t
 
 ### Reference Table: Medical Advances Enabled by Clinical Trials
 
+
 | Disease or Condition | Clinical Trial Contribution | Impact |
 | --- | --- | --- |
 | Childhood leukemia | Systematic testing of chemotherapy combinations and treatment protocols | Survival improved from less than 10% to over 90% |
@@ -101,6 +104,7 @@ More recently, the development of COVID-19 vaccines demonstrated what clinical t
 | Heart attack | Testing of clot-dissolving drugs and cardiac catheterization | In-hospital mortality has dropped dramatically |
 | Hepatitis C | Development and testing of direct-acting antiviral drugs | Most patients are now cured with 8–12 weeks of oral medication |
 | Infectious diseases | Vaccine trials for polio, measles, COVID-19, and others | Billions of cases of illness and millions of deaths prevented |
+
 
 ### Hope for rare diseases
 
@@ -275,6 +279,7 @@ Burmese Version
 
 ### အချိန်မှတ်တမ်း - မမျှော်လင့်ထားသော ဘေးဥပါဒ်များကို ထုတ်ဖော်ပြသခဲ့သည့် လက်တွေ့စမ်းသပ်မှုများ
 
+
 | ခုနှစ် | အဖြစ်အပျက် |
 | --- | --- |
 | ၁၉၆၁ | **သာလီဒိုမိုက် (Thalidomide)** — ၁၉၅၇ ခုနှစ်တွင် ဂျာမနီ၌ စတင်ရောင်းချခဲ့ပြီး၊ ပြင်းထန်သော မွေးရာပါကိုယ်အင်္ဂါချို့ယွင်းမှုများနှင့် ဆက်စပ်နေကြောင်း ၁၉၆၁ ခုနှစ်တွင် ဖော်ထုတ်နိုင်ခဲ့သည်။ ကမ္ဘာတစ်ဝန်းတွင် ကလေးငယ် ၁၀,၀၀၀ ကျော် ထိခိုက်ခဲ့ရပြီး ခေတ်သစ်ဆေးဝါးစမ်းသပ်မှု လိုအပ်ချက်များကို ဖြစ်ပေါ်စေခဲ့သည်   |
@@ -282,6 +287,7 @@ Burmese Version
 | ၂၀၀၂ | **ဟော်မုန်းကုထုံး (Hormone therapy)** — အမျိုးသမီးကျန်းမာရေးဦးဆောင်မှုအဖွဲ့ (WHI) က အီစထရိုဂျင်နှင့် ပရိုဂျက်စတင် ပေါင်းစပ်ကုထုံးသည် ဆေးဘက်ဆိုင်ရာ ယုံကြည်ချက်များနှင့် ဆန့်ကျင်ဘက်ဖြစ်ကာ နှလုံးသွေးကြောဆိုင်ရာ အန္တရာယ်ကို ပိုမိုမြင့်မားစေကြောင်း ဖော်ထုတ်ခဲ့သည်   |
 | ၂၀၀၄ | **COX-2 inhibitors** — အဓိက အကိုက်အခဲပျောက်ဆေးတစ်မျိုးသည် နှလုံးရပ်နိုင်ခြေကို မြင့်မားစေကြောင်း စမ်းသပ်မှုများက ဖော်ထုတ်ခဲ့ပြီးနောက် ဈေးကွက်မှ ပြန်လည်ရုပ်သိမ်းခဲ့ရပြီး၊ ဈေးကွက်တင်ပြီးနောက်ပိုင်း စောင့်ကြည့်စစ်ဆေးမှုများကို ပိုမိုမြှင့်တင်ခဲ့သည်   |
 | ၂၀၀၇ | **ဆီးချိုရောဂါဆေး (Diabetes medication)** — အများအပြားအသုံးပြုနေသော ဆီးချိုဆေးတစ်မျိုးသည် နှလုံးရပ်နိုင်ခြေကို မြင့်မားစေကြောင်း မက်တာဆန်းစစ်ချက်များတွင် တွေ့ရှိခဲ့ရသဖြင့်၊ ဆီးချိုဆေးများအတွက် နှလုံးသွေးကြောဆိုင်ရာ ဘေးကင်းမှု စမ်းသပ်ရန် FDA ၏ လိုအပ်ချက်အသစ်များ ထွက်ပေါ်လာခဲ့သည်   |
+
 
 ---
 
@@ -303,6 +309,7 @@ Burmese Version
 
 ### ကိုးကားဇယား - လက်တွေ့စမ်းသပ်မှုများကြောင့် ဖြစ်ထွန်းခဲ့သော ဆေးဘက်ဆိုင်ရာ တိုးတက်မှုများ
 
+
 | ရောဂါ သို့မဟုတ် အခြေအနေ | လက်တွေ့စမ်းသပ်မှု၏ ပံ့ပိုးမှု | အကျိုးသက်ရောက်မှု |
 | --- | --- | --- |
 | ကလေးသူငယ် သွေးကင်ဆာ | ကင်ဆာဆေးပေါင်းစပ်မှုများနှင့် ကုသမှုဆိုင်ရာ ပုံစံများကို စနစ်တကျ စမ်းသပ်ခြင်း | ရှင်သန်မှုနှုန်းသည် ၁၀% အောက်မှ ၉၀% ကျော်အထိ တိုးတက်လာခြင်း |
@@ -311,6 +318,7 @@ Burmese Version
 | နှလုံးရပ်ခြင်း (Heart attack) | သွေးခဲပျော်ဆေးများနှင့် နှလုံးသွေးကြောအတွင်း ပိုက်ထည့်ကုသခြင်းများကို စမ်းသပ်ခြင်း  | ဆေးရုံအတွင်း သေဆုံးမှုနှုန်း အကြီးအကျယ် လျော့ကျသွားခြင်း  |
 | အသည်းရောင် အသားဝါ ပိုးအမျိုးအစား စီ (Hepatitis C) | တိုက်ရိုက်အာနိသင်ပြ ဗိုင်းရပ်စ်ဆန့်ကျင်ဆေးများကို ထုတ်လုပ်စမ်းသပ်ခြင်း  | လူနာအများစုသည် ၈ ပတ်မှ ၁၂ ပတ်အတွင်း သောက်ဆေးဖြင့် ရောဂါအပြီးတိုင် ပျောက်ကင်းခြင်း  |
 | ကူးစက်ရောဂါများ | ပိုလီယို၊ ဝက်သက်၊ ကိုဗစ်-၁၉ နှင့် အခြားကာကွယ်ဆေး စမ်းသပ်မှုများ | သန်းပေါင်းများစွာသော ဖျားနာမှုများနှင့် သေဆုံးမှုများကို ကာကွယ်ပေးနိုင်ခြင်း |
+
 
 ### ရှားပါးရောဂါများအတွက် မျှော်လင့်ချက် (Hope for rare diseases)
 

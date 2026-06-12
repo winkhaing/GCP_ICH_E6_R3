@@ -58,11 +58,13 @@ The congressional response was the **National Research Act of 1974**, which crea
 
 ### The Belmont Report: Three Core Principles
 
+
 | Principle | Meaning | Application in Research |
 | --- | --- | --- |
 | **Respect for Persons** | Individuals should be treated as autonomous agents; those with diminished autonomy deserve additional protection | Informed consent must be voluntary and based on genuine understanding; vulnerable populations require extra safeguards |
 | **Beneficence** | Researchers have an obligation to maximise benefits and minimise harms | Risks must be justified by potential benefits; research design must minimise risks while achieving valid results |
 | **Justice** | The benefits and burdens of research must be distributed fairly | Subject selection must be equitable; no group should bear disproportionate research risks or be excluded from potential benefits |
+
 
 ---
 
@@ -187,11 +189,13 @@ Burmese Version
 
 ### ဘယ်လ်မောင့်အစီရင်ခံစာ - အဓိက အခြေခံမူ ၃ ချက် (The Belmont Report: Three Core Principles)
 
+
 | အခြေခံမူ | အဓိပ္ပာယ် | သုတေသနတွင် လက်တွေ့အသုံးချမှု |
 | --- | --- | --- |
 | **လူသားများအပေါ် လေးစားမှု (Respect for Persons)** | တစ်ဦးချင်းစီကို ကိုယ်ပိုင်ဆုံးဖြတ်ပိုင်ခွင့်ရှိသူများအဖြစ် ဆက်ဆံရမည်၊ ကိုယ်ပိုင်ဆုံးဖြတ်ခွင့် လျော့နည်းနေသူများသည် ထပ်ဆောင်းကာကွယ်မှုများ ရရှိရမည် | သဘောတူညီချက်ရယူခြင်းသည် လိုလိုလားလားရှိရမည်ဖြစ်ပြီး စစ်မှန်သော နားလည်မှုအပေါ် အခြေခံရမည်၊ ထိခိုက်လွယ်သောအုပ်စုများအတွက် ထပ်ဆောင်းအကာအကွယ်များ လိုအပ်သည် |
 | **လူနာအကျိုးရှေးရှုခြင်း (Beneficence)** | သုတေသီများသည် အကျိုးကျေးဇူးများကို အမြင့်ဆုံးမြှင့်တင်ရန်နှင့် ဘေးဥပါဒ်များကို အနည်းဆုံးသို့ လျှော့ချရန် တာဝန်ရှိသည် | စွန့်စားရမှုများသည် ရရှိလာမည့် အလားအလာရှိသော အကျိုးကျေးဇူးများဖြင့် ကျိုးကြောင်းဆီလျော်မှု ရှိရမည်၊ သုတေသနဒီဇိုင်းသည် ခိုင်လုံသောရလဒ်များရရှိစေလျက် စွန့်စားရမှုများကို အနည်းဆုံးဖြစ်စေရမည် |
 | **တရားမျှတမှု (Justice)** | သုတေသန၏ အကျိုးကျေးဇူးများနှင့် ဝန်ထုပ်ဝန်ပိုးများကို မျှတစွာ ခွဲဝေရမည် | ပါဝင်သူများကို ရွေးချယ်ရာတွင် မျှတမှုရှိရမည်၊ မည်သည့်အုပ်စုမျှ သုတေသနအန္တရာယ်များကို မမျှမတ မခံစားရစေရ သို့မဟုတ် အလားအလာရှိသော အကျိုးကျေးဇူးများမှ ချန်လှပ်မထားရ |
+
 
 ---
 

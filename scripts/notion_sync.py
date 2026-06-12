@@ -256,7 +256,7 @@ def main():
         by_module.setdefault(mod, []).append(cp)
 
     root_md = [
-        f'---\ntitle: "{root_title}"\nlayout: home\n---\n\n',
+        f'---\ntitle: "{root_title}"\nlayout: default\n---\n\n',
         f"# {root_title}\n\n",
     ]
     if callout_text:

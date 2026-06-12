@@ -275,7 +275,22 @@ def main():
     (OUTPUT_DIR / "index.md").write_text("".join(root_md), encoding="utf-8")
     print(f"  ✓ docs/index.md  (root)")
 
-    # 3. Sync each subpage
+    # 3. Create module-level index pages (layout: page → appears in sidebar nav)
+    for order, (module, pages) in enumerate(by_module.items(), start=1):
+        mod_slug = slugify(module)
+        mod_dir  = OUTPUT_DIR / mod_slug
+        mod_dir.mkdir(parents=True, exist_ok=True)
+        mod_md = [
+            f'---\ntitle: "{module}"\nlayout: page\nnav_order: {order}\n---\n\n',
+            f"# {module}\n\n",
+        ]
+        for cp in pages:
+            pg_slug = slugify(cp["title"])
+            mod_md.append(f"- [{cp['title']}](./{pg_slug}/)\n")
+        (mod_dir / "index.md").write_text("".join(mod_md), encoding="utf-8")
+        print(f"  ✓ docs/{mod_slug}/index.md  (module nav)")
+
+    # 4. Sync each subpage
     for cp in child_pages:
         mod_slug  = slugify(cp["module"]) if cp["module"] else "pages"
         page_slug = slugify(cp["title"])

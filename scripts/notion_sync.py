@@ -77,6 +77,34 @@ def page_title(page):
             return rt_to_md(rt) if rt else "Untitled"
     return "Untitled"
 
+def is_separator_row(row_text):
+    """Return True if every cell in the row is only dashes/em-dashes (a table separator)."""
+    inner = row_text.strip().strip("|")
+    cells = inner.split("|")
+    return all(re.match(r"^[\s\-–—]+$", c) for c in cells)
+
+def normalise_table_rows(rows):
+    """Given a list of pipe-delimited row strings, ensure exactly one proper
+    separator row (| --- | --- | ...) and no blank lines between rows."""
+    result = []
+    header_done = False
+    for row in rows:
+        if is_separator_row(row):
+            if not header_done:
+                # Replace em-dash / any dash separator with proper ---
+                n_cols = len(row.strip().strip("|").split("|"))
+                result.append("| " + " | ".join("---" for _ in range(n_cols)) + " |")
+                header_done = True
+            # skip duplicate separators
+        else:
+            result.append(row.strip())
+            # If first data row and no separator yet, insert one after it
+            if not header_done and result:
+                n_cols = len(row.strip().strip("|").split("|"))
+                result.append("| " + " | ".join("---" for _ in range(n_cols)) + " |")
+                header_done = True
+    return result
+
 # ── Block → Markdown (content only, no child_page blocks) ────────────────────
 def blocks_to_md(blocks, indent=0):
     """Convert a list of blocks to markdown lines. Recurses into has_children
@@ -84,15 +112,35 @@ def blocks_to_md(blocks, indent=0):
     lines = []
     pad = "  " * indent
 
-    for b in blocks:
+    i = 0
+    while i < len(blocks):
+        b = blocks[i]
         bt = b["type"]
 
         if bt == "child_page":
+            i += 1
             continue  # handled separately
 
         elif bt == "paragraph":
             text = rt_to_md(b["paragraph"]["rich_text"])
-            lines.append(f"{pad}{text}\n" if text.strip() else "\n")
+            stripped = text.strip()
+
+            # ── Table detection: group consecutive pipe-starting paragraphs ──
+            if stripped.startswith("|"):
+                table_rows = [stripped]
+                while i + 1 < len(blocks) and blocks[i + 1]["type"] == "paragraph":
+                    next_text = rt_to_md(blocks[i + 1]["paragraph"]["rich_text"]).strip()
+                    if next_text.startswith("|"):
+                        table_rows.append(next_text)
+                        i += 1
+                    else:
+                        break
+                normalised = normalise_table_rows(table_rows)
+                lines.append("\n" + "\n".join(normalised) + "\n\n")
+                i += 1
+                continue
+
+            lines.append(f"{pad}{text}\n" if stripped else "\n")
 
         elif bt == "heading_1":
             text = rt_to_md(b["heading_1"]["rich_text"])
@@ -147,11 +195,14 @@ def blocks_to_md(blocks, indent=0):
         elif bt == "table":
             if b.get("has_children"):
                 rows = fetch_all_blocks(b["id"])
+                lines.append("\n")
                 for ri, row in enumerate(rows):
                     cells = row.get("table_row", {}).get("cells", [])
                     lines.append("| " + " | ".join(rt_to_md(c) for c in cells) + " |\n")
                     if ri == 0:
                         lines.append("| " + " | ".join("---" for _ in cells) + " |\n")
+                lines.append("\n")
+                i += 1
                 continue  # children already consumed
 
         elif bt in ("column_list", "column"):
@@ -160,9 +211,10 @@ def blocks_to_md(blocks, indent=0):
         # Recurse into any block with children (toggle headings, columns, etc.)
         if b.get("has_children") and bt not in ("child_page", "table"):
             child_blocks = fetch_all_blocks(b["id"])
-            # Only pass content blocks (skip child_pages here; they're collected separately)
             content = [x for x in child_blocks if x["type"] != "child_page"]
             lines.extend(blocks_to_md(content, indent + (1 if bt in ("bulleted_list_item","numbered_list_item","to_do","toggle") else 0)))
+
+        i += 1
 
     return lines
 

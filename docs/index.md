@@ -40,24 +40,24 @@ layout: default
 - [Ethics Comittees and Regularoty Authorities](./module-5-the-people-behind-clinical-trials/ethics-comittees-and-regularoty-authorities/)
 - [Participants: The Heart of Clinical Research](./module-5-the-people-behind-clinical-trials/participants-the-heart-of-clinical-research/)
 
-## Module 6
+## Module 6: The Participant Journey
 
-- [Types of Clinical Research (6)](./module-6/types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./module-6/types-of-clinical-research-7/)
-- [Types of Clinical Research (8)](./module-6/types-of-clinical-research-8/)
-- [Types of Clinical Research (7)](./module-6/types-of-clinical-research-7/)
+- [Finding and joining a trial](./module-6-the-participant-journey/finding-and-joining-a-trial/)
+- [Understanding Informed Consent](./module-6-the-participant-journey/understanding-informed-consent/)
+- [Managing participant visits and ongoing engagement](./module-6-the-participant-journey/managing-participant-visits-and-ongoing-engagement/)
+- [Study completion and beyond](./module-6-the-participant-journey/study-completion-and-beyond/)
 
-## Module 7
+## Module 7: Regulatory Oversight and Quality
 
-- [Types of Clinical Research (6)](./module-7/types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./module-7/types-of-clinical-research-7/)
-- [Types of Clinical Research (8)](./module-7/types-of-clinical-research-8/)
-- [Types of Clinical Research (7)](./module-7/types-of-clinical-research-7/)
+- [Types of Clinical Research (6)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-6/)
+- [Types of Clinical Research (7)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-7/)
+- [Types of Clinical Research (8)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-8/)
+- [Types of Clinical Research (7)](./module-7-regulatory-oversight-and-quality/types-of-clinical-research-7/)
 
-## Module 8
+## Module 8: Your Future in Clinical Research
 
-- [Types of Clinical Research (5)](./module-8/types-of-clinical-research-5/)
-- [Types of Clinical Research (6)](./module-8/types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./module-8/types-of-clinical-research-7/)
-- [Types of Clinical Research (6)](./module-8/types-of-clinical-research-6/)
+- [Types of Clinical Research (5)](./module-8-your-future-in-clinical-research/types-of-clinical-research-5/)
+- [Types of Clinical Research (6)](./module-8-your-future-in-clinical-research/types-of-clinical-research-6/)
+- [Types of Clinical Research (7)](./module-8-your-future-in-clinical-research/types-of-clinical-research-7/)
+- [Types of Clinical Research (6)](./module-8-your-future-in-clinical-research/types-of-clinical-research-6/)
 

@@ -1,9 +1,9 @@
 ---
-title: "Types of Clinical Research (6)"
+title: "Finding and joining a trial"
 layout: default
 ---
 
-# Types of Clinical Research (6)
+# Finding and joining a trial
 
 English Version
 

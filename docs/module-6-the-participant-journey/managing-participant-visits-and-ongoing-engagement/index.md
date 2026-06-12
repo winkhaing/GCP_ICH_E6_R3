@@ -1,9 +1,9 @@
 ---
-title: "Types of Clinical Research (7)"
+title: "Managing participant visits and ongoing engagement"
 layout: default
 ---
 
-# Types of Clinical Research (7)
+# Managing participant visits and ongoing engagement
 
 English Version
 

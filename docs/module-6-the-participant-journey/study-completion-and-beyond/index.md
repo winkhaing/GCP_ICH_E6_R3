@@ -1,9 +1,9 @@
 ---
-title: "Types of Clinical Research (8)"
+title: "Study completion and beyond"
 layout: default
 ---
 
-# Types of Clinical Research (8)
+# Study completion and beyond
 
 English Version
 

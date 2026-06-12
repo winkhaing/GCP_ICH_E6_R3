@@ -1,23 +1,22 @@
 title: "GCP ICH E6(R3) Training"
 description: "Good Clinical Practice ICH E6(R3)-aligned training for clinical research professionals"
-theme: minima
 
-# GitHub Pages settings
+remote_theme: poole/hyde
+hyde_theme: theme-base-0d
+
 url: "https://winkhaing.github.io"
 baseurl: "/GCP_ICH_E6_R3"
 
-# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from build
 exclude:
   - scripts/
   - "*.py"

@@ -5,7 +5,7 @@ remote_theme: poole/hyde
 hyde_theme: theme-base-0d
 
 url: "https://winkhaing.github.io"
-baseurl: "/GCP_ICH_E6_R3"
+baseurl: "/GCP_ICH_E6_R3/"
 
 markdown: kramdown
 kramdown:

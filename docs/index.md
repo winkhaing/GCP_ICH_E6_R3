@@ -56,8 +56,7 @@ layout: default
 
 ## Module 8: Your Future in Clinical Research
 
-- [Types of Clinical Research (5)](./module-8-your-future-in-clinical-research/types-of-clinical-research-5/)
-- [Types of Clinical Research (6)](./module-8-your-future-in-clinical-research/types-of-clinical-research-6/)
-- [Types of Clinical Research (7)](./module-8-your-future-in-clinical-research/types-of-clinical-research-7/)
-- [Types of Clinical Research (6)](./module-8-your-future-in-clinical-research/types-of-clinical-research-6/)
+- [Career roles in clinical research](./module-8-your-future-in-clinical-research/career-roles-in-clinical-research/)
+- [Education and Certification Pathways](./module-8-your-future-in-clinical-research/education-and-certification-pathways/)
+- [Breaking In: Practical Strategies](./module-8-your-future-in-clinical-research/breaking-in-practical-strategies/)
 

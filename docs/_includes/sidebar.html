@@ -1,17 +1,17 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">{{ site.title }}</a>
-      </h1>
+      <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
       <p class="lead">{{ site.description }}</p>
     </div>
-
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}"
          href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url contains 'clinical-research-foundations' %} active{% endif %}"
+         href="{{ site.baseurl }}clinical-research-foundations/">Clinical Research Foundations</a>
+      <a class="sidebar-nav-item{% if page.url contains 'ich-e6-r3-principles' %} active{% endif %}"
+         href="{{ site.baseurl }}ich-e6-r3-principles/">ICH E6(R3) Principles</a>
     </nav>
-
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

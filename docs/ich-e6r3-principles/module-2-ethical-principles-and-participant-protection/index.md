@@ -1,9 +1,9 @@
 ---
-title: "Module 2: The Ethical Foundations of Human Research"
+title: "Module 2: Ethical Principles and Participant Protection"
 layout: default
 ---
 
-# Module 2: The Ethical Foundations of Human Research
+# Module 2: Ethical Principles and Participant Protection
 
 - [Lessons from History](./lessons-from-history/)
 - [The Belmont Report and Core Principles](./the-belmont-report-and-core-principles/)

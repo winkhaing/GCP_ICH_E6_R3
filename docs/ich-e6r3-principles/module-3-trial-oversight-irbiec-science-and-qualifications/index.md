@@ -1,9 +1,9 @@
 ---
-title: "Module 3: The Drug Development Pipeline"
+title: "Module 3: Trial Oversight: IRB/IEC, Science, and Qualifications"
 layout: default
 ---
 
-# Module 3: The Drug Development Pipeline
+# Module 3: Trial Oversight: IRB/IEC, Science, and Qualifications
 
 - [Discovery and Preclinical Research](./discovery-and-preclinical-research/)
 - [The IND and Clinical Development](./the-ind-and-clinical-development/)

@@ -8,31 +8,31 @@ nav_order: 2
 
 ---
 
-## Module 1: What is Clinical Research
+## Module 1: Introduction to GCP and ICH E6(R3)
 
-- [The Quest for Medical Evidence](./module-1-what-is-clinical-research/the-quest-for-medical-evidence/)
-- [Types of Clinical Research](./module-1-what-is-clinical-research/types-of-clinical-research/)
-- [Why Clinical Trials Matter](./module-1-what-is-clinical-research/why-clinical-trials-matter/)
+- [The Quest for Medical Evidence](./module-1-introduction-to-gcp-and-ich-e6r3/the-quest-for-medical-evidence/)
+- [Types of Clinical Research](./module-1-introduction-to-gcp-and-ich-e6r3/types-of-clinical-research/)
+- [Why Clinical Trials Matter](./module-1-introduction-to-gcp-and-ich-e6r3/why-clinical-trials-matter/)
 
-## Module 2: The Ethical Foundations of Human Research
+## Module 2: Ethical Principles and Participant Protection
 
-- [Lessons from History](./module-2-the-ethical-foundations-of-human-research/lessons-from-history/)
-- [The Belmont Report and Core Principles](./module-2-the-ethical-foundations-of-human-research/the-belmont-report-and-core-principles/)
-- [From Principles to Practice](./module-2-the-ethical-foundations-of-human-research/from-principles-to-practice/)
+- [Lessons from History](./module-2-ethical-principles-and-participant-protection/lessons-from-history/)
+- [The Belmont Report and Core Principles](./module-2-ethical-principles-and-participant-protection/the-belmont-report-and-core-principles/)
+- [From Principles to Practice](./module-2-ethical-principles-and-participant-protection/from-principles-to-practice/)
 
-## Module 3: The Drug Development Pipeline
+## Module 3: Trial Oversight: IRB/IEC, Science, and Qualifications
 
-- [Discovery and Preclinical Research](./module-3-the-drug-development-pipeline/discovery-and-preclinical-research/)
-- [The IND and Clinical Development](./module-3-the-drug-development-pipeline/the-ind-and-clinical-development/)
-- [Regulatory Review and Approval](./module-3-the-drug-development-pipeline/regulatory-review-and-approval/)
-- [Beyond Approval: Post-Marketing](./module-3-the-drug-development-pipeline/beyond-approval-post-marketing/)
+- [Discovery and Preclinical Research](./module-3-trial-oversight-irbiec-science-and-qualifications/discovery-and-preclinical-research/)
+- [The IND and Clinical Development](./module-3-trial-oversight-irbiec-science-and-qualifications/the-ind-and-clinical-development/)
+- [Regulatory Review and Approval](./module-3-trial-oversight-irbiec-science-and-qualifications/regulatory-review-and-approval/)
+- [Beyond Approval: Post-Marketing](./module-3-trial-oversight-irbiec-science-and-qualifications/beyond-approval-post-marketing/)
 
-## Module 4: Understanding Clinical Trial Phases
+## Module 4: Quality, Proportionality, and Protocol Design
 
-- [Phase I: First-In-Human Studies](./module-4-understanding-clinical-trial-phases/phase-i-first-in-human-studies/)
-- [Phase II: Proof of Concept](./module-4-understanding-clinical-trial-phases/phase-ii-proof-of-concept/)
-- [Phase III: Pivotal Trials](./module-4-understanding-clinical-trial-phases/phase-iii-pivotal-trials/)
-- [Phase IV and Beyond](./module-4-understanding-clinical-trial-phases/phase-iv-and-beyond/)
+- [Phase I: First-In-Human Studies](./module-4-quality-proportionality-and-protocol-design/phase-i-first-in-human-studies/)
+- [Phase II: Proof of Concept](./module-4-quality-proportionality-and-protocol-design/phase-ii-proof-of-concept/)
+- [Phase III: Pivotal Trials](./module-4-quality-proportionality-and-protocol-design/phase-iii-pivotal-trials/)
+- [Phase IV and Beyond](./module-4-quality-proportionality-and-protocol-design/phase-iv-and-beyond/)
 
 ## Module 5: The People Behind Clinical Trials
 

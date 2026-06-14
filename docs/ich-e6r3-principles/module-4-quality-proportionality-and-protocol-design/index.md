@@ -1,9 +1,9 @@
 ---
-title: "Module 4: Understanding Clinical Trial Phases"
+title: "Module 4: Quality, Proportionality, and Protocol Design"
 layout: default
 ---
 
-# Module 4: Understanding Clinical Trial Phases
+# Module 4: Quality, Proportionality, and Protocol Design
 
 - [Phase I: First-In-Human Studies](./phase-i-first-in-human-studies/)
 - [Phase II: Proof of Concept](./phase-ii-proof-of-concept/)

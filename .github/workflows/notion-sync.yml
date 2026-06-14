@@ -1,14 +1,12 @@
-name: Sync Notion to GitHub Pages
+name: Sync Notion → GitHub Pages
 
 on:
   schedule:
-    - cron: "0 * * * *"  # every hour
-  workflow_dispatch:       # manual trigger
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:        # manual trigger
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   sync:
@@ -28,21 +26,16 @@ jobs:
 
       - name: Run Notion sync
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+          NOTION_TOKEN:       ${{ secrets.NOTION_TOKEN }}
+          NOTION_PAGE_ID:     ${{ secrets.NOTION_PAGE_ID }}
+          NOTION_COURSE_1_ID: ${{ secrets.NOTION_COURSE_1_ID }}
+          NOTION_COURSE_2_ID: ${{ secrets.NOTION_COURSE_2_ID }}
         run: python scripts/notion_sync.py
 
-      - name: Check for changes
-        id: diff
-        run: |
-          git diff --quiet HEAD -- docs/ || echo "changed=true" >> "$GITHUB_OUTPUT"
-          git ls-files --deleted docs/ | grep -q . && echo "changed=true" >> "$GITHUB_OUTPUT" || true
-
       - name: Commit and push
-        if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
           git add -A docs/
-          git commit -m "Sync from Notion [skip ci]"
+          git diff --cached --quiet || git commit -m "🔄 Sync from Notion [skip ci]"
           git push

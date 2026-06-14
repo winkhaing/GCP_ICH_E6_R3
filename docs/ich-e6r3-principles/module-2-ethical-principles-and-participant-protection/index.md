@@ -5,6 +5,7 @@ layout: default
 
 # Module 2: Ethical Principles and Participant Protection
 
-- [Lessons from History](./lessons-from-history/)
-- [The Belmont Report and Core Principles](./the-belmont-report-and-core-principles/)
-- [From Principles to Practice](./from-principles-to-practice/)
+- [T (2)](./t-2/)
+- [T (3)](./t-3/)
+- [T (4)](./t-4/)
+- [T (5)](./t-5/)

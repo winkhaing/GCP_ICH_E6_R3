@@ -2,24 +2,38 @@
 """
 Notion → GitHub Pages sync script.
 
-Handles deeply-nested toggle-heading structures by recursively walking
-ALL blocks with has_children=True to find child_page blocks at any depth.
+Structure:
+  Home page  (NOTION_PAGE_ID)
+  ├── Course 1: Clinical Research Foundations  (NOTION_COURSE_1_ID)
+  │   ├── Module 1  (toggle heading)
+  │   │   ├── Subpage …
+  │   │   └── Subpage …
+  │   └── Module N …
+  └── Course 2: ICH E6(R3) Principles  (NOTION_COURSE_2_ID)
+      └── …
 
-Output layout under docs/:
-  docs/index.md                        ← root page
-  docs/<module-slug>/index.md          ← module overview (if any module-level content)
-  docs/<module-slug>/<page-slug>/index.md  ← each subpage
+Output under docs/:
+  docs/index.md                              ← home page
+  docs/clinical-research-foundations/index.md        ← course 1 index (layout: page)
+  docs/clinical-research-foundations/<module>/<page>/index.md
+  docs/ich-e6-r3-principles/index.md                 ← course 2 index (layout: page)
+  docs/ich-e6-r3-principles/<module>/<page>/index.md
 """
 
 import os, re, time, requests
 from pathlib import Path
+from collections import OrderedDict
 
 # ── Config ───────────────────────────────────────────────────────────────────
-NOTION_TOKEN = os.environ["NOTION_TOKEN"]
-ROOT_PAGE_ID = os.environ["NOTION_PAGE_ID"]
-OUTPUT_DIR   = Path("docs")
-API          = "https://api.notion.com/v1"
-HEADERS      = {
+NOTION_TOKEN  = os.environ["NOTION_TOKEN"]
+HOME_PAGE_ID  = os.environ["NOTION_PAGE_ID"]
+COURSE_IDS    = [
+    os.environ["NOTION_COURSE_1_ID"],
+    os.environ["NOTION_COURSE_2_ID"],
+]
+OUTPUT_DIR = Path("docs")
+API        = "https://api.notion.com/v1"
+HEADERS    = {
     "Authorization": f"Bearer {NOTION_TOKEN}",
     "Notion-Version": "2022-06-28",
 }
@@ -31,7 +45,6 @@ def api_get(path, **params):
     return r.json()
 
 def fetch_all_blocks(block_id):
-    """Fetch all children blocks (paginated)."""
     results, cursor = [], None
     while True:
         params = {"page_size": 100}
@@ -54,12 +67,12 @@ def rt_to_md(rich_text):
     for t in rich_text:
         s = t.get("plain_text", "")
         a = t.get("annotations", {})
-        if a.get("code"):         s = f"`{s}`"
-        if a.get("bold"):         s = f"**{s}**"
-        if a.get("italic"):       s = f"*{s}*"
+        if a.get("code"):          s = f"`{s}`"
+        if a.get("bold"):          s = f"**{s}**"
+        if a.get("italic"):        s = f"*{s}*"
         if a.get("strikethrough"): s = f"~~{s}~~"
         href = t.get("href")
-        if href:                  s = f"[{s}]({href})"
+        if href:                   s = f"[{s}]({href})"
         out.append(s)
     return "".join(out)
 
@@ -77,110 +90,84 @@ def page_title(page):
             return rt_to_md(rt) if rt else "Untitled"
     return "Untitled"
 
+# ── Table helpers ─────────────────────────────────────────────────────────────
 def is_separator_row(row_text):
-    """Return True if every cell in the row is only dashes/em-dashes (a table separator)."""
     inner = row_text.strip().strip("|")
     cells = inner.split("|")
     return all(re.match(r"^[\s\-–—]+$", c) for c in cells)
 
 def normalise_table_rows(rows):
-    """Given a list of pipe-delimited row strings, ensure exactly one proper
-    separator row (| --- | --- | ...) and no blank lines between rows."""
-    result = []
-    header_done = False
+    result, header_done = [], False
     for row in rows:
         if is_separator_row(row):
             if not header_done:
-                # Replace em-dash / any dash separator with proper ---
-                n_cols = len(row.strip().strip("|").split("|"))
-                result.append("| " + " | ".join("---" for _ in range(n_cols)) + " |")
+                n = len(row.strip().strip("|").split("|"))
+                result.append("| " + " | ".join("---" for _ in range(n)) + " |")
                 header_done = True
-            # skip duplicate separators
         else:
             result.append(row.strip())
-            # If first data row and no separator yet, insert one after it
-            if not header_done and result:
-                n_cols = len(row.strip().strip("|").split("|"))
-                result.append("| " + " | ".join("---" for _ in range(n_cols)) + " |")
+            if not header_done:
+                n = len(row.strip().strip("|").split("|"))
+                result.append("| " + " | ".join("---" for _ in range(n)) + " |")
                 header_done = True
     return result
 
-# ── Block → Markdown (content only, no child_page blocks) ────────────────────
+# ── Block → Markdown ──────────────────────────────────────────────────────────
 def blocks_to_md(blocks, indent=0):
-    """Convert a list of blocks to markdown lines. Recurses into has_children
-    for non-child_page blocks so toggle content is included."""
     lines = []
     pad = "  " * indent
-
     i = 0
     while i < len(blocks):
-        b = blocks[i]
+        b  = blocks[i]
         bt = b["type"]
 
         if bt == "child_page":
-            i += 1
-            continue  # handled separately
+            i += 1; continue
 
         elif bt == "paragraph":
-            text = rt_to_md(b["paragraph"]["rich_text"])
+            text     = rt_to_md(b["paragraph"]["rich_text"])
             stripped = text.strip()
-
-            # ── Table detection: group consecutive pipe-starting paragraphs ──
             if stripped.startswith("|"):
-                table_rows = [stripped]
-                while i + 1 < len(blocks) and blocks[i + 1]["type"] == "paragraph":
-                    next_text = rt_to_md(blocks[i + 1]["paragraph"]["rich_text"]).strip()
-                    if next_text.startswith("|"):
-                        table_rows.append(next_text)
-                        i += 1
+                rows = [stripped]
+                while i + 1 < len(blocks) and blocks[i+1]["type"] == "paragraph":
+                    nxt = rt_to_md(blocks[i+1]["paragraph"]["rich_text"]).strip()
+                    if nxt.startswith("|"):
+                        rows.append(nxt); i += 1
                     else:
                         break
-                normalised = normalise_table_rows(table_rows)
-                lines.append("\n" + "\n".join(normalised) + "\n\n")
-                i += 1
-                continue
-
+                lines.append("\n" + "\n".join(normalise_table_rows(rows)) + "\n\n")
+                i += 1; continue
             lines.append(f"{pad}{text}\n" if stripped else "\n")
 
         elif bt == "heading_1":
-            text = rt_to_md(b["heading_1"]["rich_text"])
-            lines.append(f"\n# {text}\n\n")
+            lines.append(f"\n# {rt_to_md(b['heading_1']['rich_text'])}\n\n")
         elif bt == "heading_2":
-            text = rt_to_md(b["heading_2"]["rich_text"])
-            lines.append(f"\n## {text}\n\n")
+            lines.append(f"\n## {rt_to_md(b['heading_2']['rich_text'])}\n\n")
         elif bt == "heading_3":
-            text = rt_to_md(b["heading_3"]["rich_text"])
-            lines.append(f"\n### {text}\n\n")
+            lines.append(f"\n### {rt_to_md(b['heading_3']['rich_text'])}\n\n")
 
         elif bt == "bulleted_list_item":
-            text = rt_to_md(b["bulleted_list_item"]["rich_text"])
-            lines.append(f"{pad}- {text}\n")
+            lines.append(f"{pad}- {rt_to_md(b['bulleted_list_item']['rich_text'])}\n")
         elif bt == "numbered_list_item":
-            text = rt_to_md(b["numbered_list_item"]["rich_text"])
-            lines.append(f"{pad}1. {text}\n")
+            lines.append(f"{pad}1. {rt_to_md(b['numbered_list_item']['rich_text'])}\n")
         elif bt == "to_do":
-            text = rt_to_md(b["to_do"]["rich_text"])
-            chk  = "x" if b["to_do"].get("checked") else " "
-            lines.append(f"{pad}- [{chk}] {text}\n")
+            chk = "x" if b["to_do"].get("checked") else " "
+            lines.append(f"{pad}- [{chk}] {rt_to_md(b['to_do']['rich_text'])}\n")
 
         elif bt == "toggle":
-            text = rt_to_md(b["toggle"]["rich_text"])
-            lines.append(f"\n**{text}**\n\n")
+            lines.append(f"\n**{rt_to_md(b['toggle']['rich_text'])}**\n\n")
 
         elif bt == "callout":
-            icon = b["callout"].get("icon") or {}
+            icon  = b["callout"].get("icon") or {}
             emoji = icon.get("emoji", "💡") if icon.get("type") == "emoji" else "💡"
-            text  = rt_to_md(b["callout"]["rich_text"])
-            lines.append(f"> {emoji} {text}\n")
+            lines.append(f"> {emoji} {rt_to_md(b['callout']['rich_text'])}\n")
 
         elif bt == "quote":
-            text = rt_to_md(b["quote"]["rich_text"])
-            lines.append(f"> {text}\n")
+            lines.append(f"> {rt_to_md(b['quote']['rich_text'])}\n")
 
         elif bt == "code":
             lang = b["code"].get("language", "")
-            code = rt_to_md(b["code"]["rich_text"])
-            lines.append(f"```{lang}\n{code}\n```\n")
+            lines.append(f"```{lang}\n{rt_to_md(b['code']['rich_text'])}\n```\n")
 
         elif bt == "divider":
             lines.append("\n---\n\n")
@@ -202,39 +189,25 @@ def blocks_to_md(blocks, indent=0):
                     if ri == 0:
                         lines.append("| " + " | ".join("---" for _ in cells) + " |\n")
                 lines.append("\n")
-                i += 1
-                continue  # children already consumed
+                i += 1; continue
 
-        elif bt in ("column_list", "column"):
-            pass  # fall through to has_children handling below
-
-        # Recurse into any block with children (toggle headings, columns, etc.)
         if b.get("has_children") and bt not in ("child_page", "table"):
             child_blocks = fetch_all_blocks(b["id"])
             content = [x for x in child_blocks if x["type"] != "child_page"]
-            lines.extend(blocks_to_md(content, indent + (1 if bt in ("bulleted_list_item","numbered_list_item","to_do","toggle") else 0)))
+            extra = 1 if bt in ("bulleted_list_item", "numbered_list_item", "to_do", "toggle") else 0
+            lines.extend(blocks_to_md(content, indent + extra))
 
         i += 1
-
     return lines
 
-# ── Collect all child_page blocks at any depth ────────────────────────────────
+# ── Collect child_pages nested at any depth ───────────────────────────────────
 def collect_child_pages(blocks, module_label=""):
-    """
-    Walk blocks recursively. Returns list of dicts:
-      { "id": page_id, "title": title, "module": module_label }
-    """
     found = []
     for b in blocks:
         bt = b["type"]
         if bt == "child_page":
-            found.append({
-                "id":     b["id"],
-                "title":  b["child_page"]["title"],
-                "module": module_label,
-            })
+            found.append({"id": b["id"], "title": b["child_page"]["title"], "module": module_label})
         elif b.get("has_children"):
-            # Determine module label from heading_1
             label = module_label
             if bt == "heading_1":
                 rt = b["heading_1"]["rich_text"]
@@ -243,115 +216,142 @@ def collect_child_pages(blocks, module_label=""):
             found.extend(collect_child_pages(children, label))
     return found
 
-# ── Sync a single Notion page to a Markdown file ─────────────────────────────
-def sync_page(page_id, out_path: Path, depth_label=""):
+# ── Sync a single Notion page → Markdown file ────────────────────────────────
+def sync_page(page_id, out_path: Path, label=""):
     page   = fetch_page(page_id)
     title  = page_title(page)
     blocks = fetch_all_blocks(page_id)
-
     content_blocks = [b for b in blocks if b["type"] != "child_page"]
-    md_lines = [
-        f'---\ntitle: "{title}"\nlayout: default\n---\n\n',
-        f"# {title}\n\n",
-    ]
-    md_lines.extend(blocks_to_md(content_blocks))
+    md = [f'---\ntitle: "{title}"\nlayout: default\n---\n\n', f"# {title}\n\n"]
+    md.extend(blocks_to_md(content_blocks))
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text("".join(md_lines), encoding="utf-8")
-    print(f"  ✓ {out_path}  ({depth_label})")
+    out_path.write_text("".join(md), encoding="utf-8")
+    print(f"  ✓ {out_path}  {label}")
     return title
 
-# ── Main ──────────────────────────────────────────────────────────────────────
-def clean_docs():
-    """Remove all .md files from docs/ (except _config.yml) before each sync
-    so renamed/deleted Notion pages don't leave stale files."""
-    if not OUTPUT_DIR.exists():
-        return
-    for f in OUTPUT_DIR.rglob("*.md"):
-        f.unlink()
-    # Remove empty directories (leave _config.yml untouched)
-    for d in sorted(OUTPUT_DIR.rglob("*"), reverse=True):
-        if d.is_dir():
-            try:
-                d.rmdir()  # only removes if empty
-            except OSError:
-                pass
-    print("🧹  Cleared stale docs\n")
+# ── Sync one course ───────────────────────────────────────────────────────────
+def sync_course(course_id, course_dir: Path, nav_order: int):
+    page       = fetch_page(course_id)
+    title      = page_title(page)
+    blocks     = fetch_all_blocks(course_id)
+    child_pages = collect_child_pages(blocks)
 
-
-def main():
-    print(f"🔄  Syncing Notion → {OUTPUT_DIR}/\n")
-    clean_docs()
-    OUTPUT_DIR.mkdir(exist_ok=True)
-
-    # 1. Root page
-    root_page  = fetch_page(ROOT_PAGE_ID)
-    root_title = page_title(root_page)
-    root_blocks = fetch_all_blocks(ROOT_PAGE_ID)
-
-    # 2. Collect ALL child pages (nested at any depth)
-    print("  Scanning for subpages…")
-    child_pages = collect_child_pages(root_blocks)
-    print(f"  Found {len(child_pages)} subpages\n")
-
-    # Extract callout text for site description (first callout block only)
-    callout_text = ""
-    for b in root_blocks:
-        if b["type"] == "callout":
-            callout_text = rt_to_md(b["callout"]["rich_text"]).strip()
-            break
-
-    # Build clean homepage — title + description + module nav only
-    from collections import defaultdict, OrderedDict
+    # Group by module
     by_module = OrderedDict()
     for cp in child_pages:
         mod = cp["module"] or "General"
         by_module.setdefault(mod, []).append(cp)
 
-    root_md = [
-        f'---\ntitle: "{root_title}"\nlayout: default\n---\n\n',
-        f"# {root_title}\n\n",
+    # Course index page (layout: page → appears in sidebar)
+    course_md = [
+        f'---\ntitle: "{title}"\nlayout: page\nnav_order: {nav_order}\n---\n\n',
+        f"# {title}\n\n",
     ]
+    content_blocks = [b for b in blocks if b["type"] != "child_page"]
+    callout_text = ""
+    for b in blocks:
+        if b["type"] == "callout":
+            callout_text = rt_to_md(b["callout"]["rich_text"]).strip()
+            break
     if callout_text:
-        root_md.append(f"> {callout_text}\n\n")
+        course_md.append(f"> {callout_text}\n\n")
 
     if by_module:
-        root_md.append("---\n\n")
+        course_md.append("---\n\n")
         for module, pages in by_module.items():
-            root_md.append(f"## {module}\n\n")
+            course_md.append(f"## {module}\n\n")
             for cp in pages:
-                slug    = slugify(cp["title"])
-                mod_slug = slugify(cp["module"]) if cp["module"] else "pages"
-                root_md.append(f"- [{cp['title']}](./{mod_slug}/{slug}/)\n")
-            root_md.append("\n")
+                pg_slug = slugify(cp["title"])
+                mod_slug = slugify(cp["module"]) if cp["module"] else "general"
+                course_md.append(f"- [{cp['title']}](./{mod_slug}/{pg_slug}/)\n")
+            course_md.append("\n")
 
-    (OUTPUT_DIR / "index.md").write_text("".join(root_md), encoding="utf-8")
-    print(f"  ✓ docs/index.md  (root)")
+    course_dir.mkdir(parents=True, exist_ok=True)
+    (course_dir / "index.md").write_text("".join(course_md), encoding="utf-8")
+    print(f"  ✓ {course_dir}/index.md  (course index)")
 
-    # 3. Create module-level index pages (layout: page → appears in sidebar nav)
+    # Module index pages
     for order, (module, pages) in enumerate(by_module.items(), start=1):
         mod_slug = slugify(module)
-        mod_dir  = OUTPUT_DIR / mod_slug
+        mod_dir  = course_dir / mod_slug
         mod_dir.mkdir(parents=True, exist_ok=True)
-        mod_md = [
-            f'---\ntitle: "{module}"\nlayout: page\nnav_order: {order}\n---\n\n',
-            f"# {module}\n\n",
-        ]
+        mod_md = [f'---\ntitle: "{module}"\nlayout: default\n---\n\n', f"# {module}\n\n"]
         for cp in pages:
-            pg_slug = slugify(cp["title"])
-            mod_md.append(f"- [{cp['title']}](./{pg_slug}/)\n")
+            mod_md.append(f"- [{cp['title']}](./{slugify(cp['title'])}/)\n")
         (mod_dir / "index.md").write_text("".join(mod_md), encoding="utf-8")
-        print(f"  ✓ docs/{mod_slug}/index.md  (module nav)")
+        print(f"  ✓ {mod_dir}/index.md")
 
-    # 4. Sync each subpage
+    # Subpages
     for cp in child_pages:
-        mod_slug  = slugify(cp["module"]) if cp["module"] else "pages"
+        mod_slug  = slugify(cp["module"]) if cp["module"] else "general"
         page_slug = slugify(cp["title"])
-        out_path  = OUTPUT_DIR / mod_slug / page_slug / "index.md"
+        out_path  = course_dir / mod_slug / page_slug / "index.md"
         try:
-            sync_page(cp["id"], out_path, depth_label=cp["module"])
+            sync_page(cp["id"], out_path, label=cp["module"])
             time.sleep(0.2)
         except Exception as e:
             print(f"  ✗ {cp['title']}: {e}")
+
+    return title
+
+# ── Clean stale docs ──────────────────────────────────────────────────────────
+def clean_docs():
+    if not OUTPUT_DIR.exists():
+        return
+    for f in OUTPUT_DIR.rglob("*.md"):
+        f.unlink()
+    for d in sorted(OUTPUT_DIR.rglob("*"), reverse=True):
+        if d.is_dir():
+            try: d.rmdir()
+            except OSError: pass
+    print("🧹  Cleared stale docs\n")
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+def main():
+    print(f"🔄  Syncing Notion → {OUTPUT_DIR}/\n")
+    clean_docs()
+    OUTPUT_DIR.mkdir(exist_ok=True)
+
+    # 1. Home page
+    home_page   = fetch_page(HOME_PAGE_ID)
+    home_title  = page_title(home_page)
+    home_blocks = fetch_all_blocks(HOME_PAGE_ID)
+
+    callout_text = ""
+    for b in home_blocks:
+        if b["type"] == "callout":
+            callout_text = rt_to_md(b["callout"]["rich_text"]).strip()
+            break
+
+    # 2. Sync each course
+    course_titles = {}
+    course_slugs  = {}
+    for i, cid in enumerate(COURSE_IDS, start=1):
+        page     = fetch_page(cid)
+        title    = page_title(page)
+        slug     = slugify(title)
+        course_dir = OUTPUT_DIR / slug
+        print(f"\n📚  Course {i}: {title}")
+        sync_course(cid, course_dir, nav_order=i)
+        course_titles[cid] = title
+        course_slugs[cid]  = slug
+
+    # 3. Home index
+    home_md = [
+        f'---\ntitle: "{home_title}"\nlayout: default\n---\n\n',
+        f"# {home_title}\n\n",
+    ]
+    if callout_text:
+        home_md.append(f"> {callout_text}\n\n")
+    home_md.append("---\n\n## Courses\n\n")
+    for cid in COURSE_IDS:
+        slug  = course_slugs[cid]
+        title = course_titles[cid]
+        home_md.append(f"- [{title}](./{slug}/)\n")
+    home_md.append("\n")
+
+    (OUTPUT_DIR / "index.md").write_text("".join(home_md), encoding="utf-8")
+    print(f"\n  ✓ docs/index.md  (home)")
 
     total = sum(1 for _ in OUTPUT_DIR.rglob("*.md"))
     print(f"\n✅  Done — {total} Markdown files written.")

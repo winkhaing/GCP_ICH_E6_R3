@@ -5,8 +5,6 @@ layout: default
 
 # Good Clinical Practice | ICH E6 (R3)
 
-> **Welcome to the GCP ICH E6 (R3)! **
-
 ---
 
 ## Courses

@@ -5,7 +5,7 @@ layout: default
 
 # Module 1: Introduction to GCP and ICH E6(R3)
 
-- [T (1)](./t-1/)
-- [T (2)](./t-2/)
-- [T (3)](./t-3/)
-- [T (4)](./t-4/)
+- [What Is Good Clinical Practice?](./what-is-good-clinical-practice/)
+- [Historical and Ethical Foundations of GCP](./historical-and-ethical-foundations-of-gcp/)
+- [The Global Regulatory Landscape](./the-global-regulatory-landscape/)
+- [Structure and Scope of ICH E6(R3)](./structure-and-scope-of-ich-e6r3/)

@@ -10,10 +10,10 @@ nav_order: 2
 
 ## Module 1: Introduction to GCP and ICH E6(R3)
 
-- [T (1)](./module-1-introduction-to-gcp-and-ich-e6r3/t-1/)
-- [T (2)](./module-1-introduction-to-gcp-and-ich-e6r3/t-2/)
-- [T (3)](./module-1-introduction-to-gcp-and-ich-e6r3/t-3/)
-- [T (4)](./module-1-introduction-to-gcp-and-ich-e6r3/t-4/)
+- [What Is Good Clinical Practice?](./module-1-introduction-to-gcp-and-ich-e6r3/what-is-good-clinical-practice/)
+- [Historical and Ethical Foundations of GCP](./module-1-introduction-to-gcp-and-ich-e6r3/historical-and-ethical-foundations-of-gcp/)
+- [The Global Regulatory Landscape](./module-1-introduction-to-gcp-and-ich-e6r3/the-global-regulatory-landscape/)
+- [Structure and Scope of ICH E6(R3)](./module-1-introduction-to-gcp-and-ich-e6r3/structure-and-scope-of-ich-e6r3/)
 
 ## Module 2: Ethical Principles and Participant Protection
 

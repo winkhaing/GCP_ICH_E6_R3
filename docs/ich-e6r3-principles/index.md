@@ -17,17 +17,17 @@ nav_order: 2
 
 ## Module 2: Ethical Principles and Participant Protection
 
-- [T (2)](./module-2-ethical-principles-and-participant-protection/t-2/)
-- [T (3)](./module-2-ethical-principles-and-participant-protection/t-3/)
-- [T (4)](./module-2-ethical-principles-and-participant-protection/t-4/)
-- [T (5)](./module-2-ethical-principles-and-participant-protection/t-5/)
+- [Principle 1: Ethical Conduct and Participant Protection](./module-2-ethical-principles-and-participant-protection/principle-1-ethical-conduct-and-participant-protection/)
+- [Principle 2: Informed Consent Fundamentals](./module-2-ethical-principles-and-participant-protection/principle-2-informed-consent-fundamentals/)
+- [Diversity, Inclusion, and Vulnerable Populations](./module-2-ethical-principles-and-participant-protection/diversity-inclusion-and-vulnerable-populations/)
+- [Decentralised and Technology-Enabled Consent](./module-2-ethical-principles-and-participant-protection/decentralised-and-technology-enabled-consent/)
 
 ## Module 3: Trial Oversight: IRB/IEC, Science, and Qualifications
 
-- [T (3)](./module-3-trial-oversight-irbiec-science-and-qualifications/t-3/)
-- [T (4)](./module-3-trial-oversight-irbiec-science-and-qualifications/t-4/)
-- [T (5)](./module-3-trial-oversight-irbiec-science-and-qualifications/t-5/)
-- [T (6)](./module-3-trial-oversight-irbiec-science-and-qualifications/t-6/)
+- [Principle 3: Independent IRB/IEC Review](./module-3-trial-oversight-irbiec-science-and-qualifications/principle-3-independent-irbiec-review/)
+- [Principle 4: Scientific Soundness](./module-3-trial-oversight-irbiec-science-and-qualifications/principle-4-scientific-soundness/)
+- [Principle 5: Qualified Individuals](./module-3-trial-oversight-irbiec-science-and-qualifications/principle-5-qualified-individuals/)
+- [IRB/IEC Operations in Practice](./module-3-trial-oversight-irbiec-science-and-qualifications/irbiec-operations-in-practice/)
 
 ## Module 4: Quality, Proportionality, and Protocol Design
 

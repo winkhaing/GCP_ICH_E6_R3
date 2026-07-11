@@ -5,7 +5,7 @@ layout: default
 
 # Module 3: Trial Oversight: IRB/IEC, Science, and Qualifications
 
-- [T (3)](./t-3/)
-- [T (4)](./t-4/)
-- [T (5)](./t-5/)
-- [T (6)](./t-6/)
+- [Principle 3: Independent IRB/IEC Review](./principle-3-independent-irbiec-review/)
+- [Principle 4: Scientific Soundness](./principle-4-scientific-soundness/)
+- [Principle 5: Qualified Individuals](./principle-5-qualified-individuals/)
+- [IRB/IEC Operations in Practice](./irbiec-operations-in-practice/)

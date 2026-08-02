@@ -31,10 +31,10 @@ nav_order: 2
 
 ## Module 4: Quality, Proportionality, and Protocol Design
 
-- [T (4)](./module-4-quality-proportionality-and-protocol-design/t-4/)
-- [T (5)](./module-4-quality-proportionality-and-protocol-design/t-5/)
-- [T (6)](./module-4-quality-proportionality-and-protocol-design/t-6/)
-- [T (7)](./module-4-quality-proportionality-and-protocol-design/t-7/)
+- [Principle 6: Quality by Design](./module-4-quality-proportionality-and-protocol-design/principle-6-quality-by-design/)
+- [Principle 7: Proportionate Approach](./module-4-quality-proportionality-and-protocol-design/principle-7-proportionate-approach/)
+- [Principle 8: Protocol Requirements](./module-4-quality-proportionality-and-protocol-design/principle-8-protocol-requirements/)
+- [Implementing RBQM: A Practical Framework](./module-4-quality-proportionality-and-protocol-design/implementing-rbqm-a-practical-framework/)
 
 ## Module 5: Reliable Results, Roles and Product Management
 

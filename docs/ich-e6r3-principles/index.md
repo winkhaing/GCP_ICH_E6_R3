@@ -38,22 +38,29 @@ nav_order: 2
 
 ## Module 5: Reliable Results, Roles and Product Management
 
+- [Principle 9: Reliable Results](./module-5-reliable-results-roles-and-product-management/principle-9-reliable-results/)
+- [Principle 10: Roles and Responsibilities](./module-5-reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities/)
 - [T (5)](./module-5-reliable-results-roles-and-product-management/t-5/)
-- [T (6)](./module-5-reliable-results-roles-and-product-management/t-6/)
-- [T (7)](./module-5-reliable-results-roles-and-product-management/t-7/)
-- [T (8)](./module-5-reliable-results-roles-and-product-management/t-8/)
+- [T (5)](./module-5-reliable-results-roles-and-product-management/t-5/)
 
-## Module 6: Investigator Responsibilities: Safety, Consent, and Product Management
+## Module 6: Investigator Responsibilities: Qualifications to Protocol Compliance
 
-- [T (6)](./module-6-investigator-responsibilities-safety-consent-and-product-management/t-6/)
-- [T (7)](./module-6-investigator-responsibilities-safety-consent-and-product-management/t-7/)
-- [T (8)](./module-6-investigator-responsibilities-safety-consent-and-product-management/t-8/)
-- [T (9)](./module-6-investigator-responsibilities-safety-consent-and-product-management/t-9/)
+- [T (6)](./module-6-investigator-responsibilities-qualifications-to-protocol-compliance/t-6/)
+- [T (6)](./module-6-investigator-responsibilities-qualifications-to-protocol-compliance/t-6/)
+- [T (6)](./module-6-investigator-responsibilities-qualifications-to-protocol-compliance/t-6/)
+- [T (6)](./module-6-investigator-responsibilities-qualifications-to-protocol-compliance/t-6/)
 
-## Module 7: Records, Reports and Data Governance
+## Module 7: Investigator Responsibilities: Safety, Consent, and Product Management
 
-- [T (7)](./module-7-records-reports-and-data-governance/t-7/)
-- [T (8)](./module-7-records-reports-and-data-governance/t-8/)
-- [T (9)](./module-7-records-reports-and-data-governance/t-9/)
-- [T (10)](./module-7-records-reports-and-data-governance/t-10/)
+- [T (7)](./module-7-investigator-responsibilities-safety-consent-and-product-management/t-7/)
+- [T (7)](./module-7-investigator-responsibilities-safety-consent-and-product-management/t-7/)
+- [T (7)](./module-7-investigator-responsibilities-safety-consent-and-product-management/t-7/)
+- [T (7)](./module-7-investigator-responsibilities-safety-consent-and-product-management/t-7/)
+
+## Module 8: Records, Reports and Data Governance
+
+- [T (8)](./module-8-records-reports-and-data-governance/t-8/)
+- [T (8)](./module-8-records-reports-and-data-governance/t-8/)
+- [T (8)](./module-8-records-reports-and-data-governance/t-8/)
+- [T (8)](./module-8-records-reports-and-data-governance/t-8/)
 

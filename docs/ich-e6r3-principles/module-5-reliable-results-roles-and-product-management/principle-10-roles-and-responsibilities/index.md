@@ -7,6 +7,212 @@ layout: default
 
 English Version
 
+# Principle 10: Roles and Responsibilities
+
+**Learn how ICH E6(R3) requires clear documentation of roles and responsibilities, establishing accountability frameworks that prevent gaps and overlaps while enabling appropriate delegation with maintained oversight.**
+
+---
+
+
+## When Everyone Assumes Someone Else Is Handling It
+
+Consider a scenario that plays out more often than anyone would like to admit: A participant experiences a serious adverse event on a Friday evening. The investigator assumes the sponsor’s safety team is handling the regulatory notification. The sponsor assumes the site has already reported to the IRB. The IRB waits for documentation that neither party believes is their responsibility to prepare. Days pass. Deadlines are missed. When regulators eventually inquire, everyone points at everyone else.
+This is not a failure of intent. Everyone involved wanted to protect the participant and meet their obligations. It is a failure of clarity. No one had documented precisely who was responsible for what.
+Principle 10 of ICH E6(R3) addresses this problem directly. It is one of two principles newly elevated to standalone status in E6(R3), reflecting the recognition that as clinical trials have grown more complex and involve more parties, the question of “who does what” has become both more important and more difficult to answer. Clear, documented roles and responsibilities are not bureaucratic formalities. They are the architecture of accountability.
+
+---
+
+
+## What You Will Learn
+
+By the end of this lesson, you will be able to:
+1. Document roles and responsibilities clearly for all trial participants (10.1)
+1. Apply requirements for transfer and delegation while retaining accountability
+1. Develop agreements that define roles, activities, and responsibilities (10.2)
+1. Maintain appropriate oversight of delegated activities (10.3)
+1. Structure CRO and service provider agreements appropriately
+
+---
+
+
+## What Principle 10 Requires
+
+> **ICH E6(R3) Principle 10: Roles and Responsibilities**
+“Roles and responsibilities in clinical trials should be clear and documented appropriately.”
+
+### Why Clarity Merits a Principle
+
+One might wonder why something so apparently obvious needs its own principle. Do we really need a regulatory guideline to tell us that people should know their jobs?
+The answer lies in how clinical trial conduct has evolved. In the early days of clinical research, trials were often small, single-site affairs where the investigator did nearly everything. Role confusion was unlikely because there were few roles to confuse.
+Modern trials tell a different story. A single Phase III trial might involve a sponsor, one or more contract research organisations, dozens of investigative sites across multiple countries, central laboratories, imaging vendors, interactive response technology providers, electronic data capture vendors, safety reporting services, and specialised consultants for statistics, regulatory affairs, and medical writing. Each of these entities has staff members who may change during the course of the trial. The potential for gaps, overlaps, and misunderstandings is immense.
+Principle 10 responds to this reality. It recognises that when multiple parties share responsibility for participant protection and data integrity, explicit documentation of who does what is not optional. It is essential.
+> **A New Principle for a Changed Landscape**
+Principle 10 did not exist as a standalone principle in ICH E6(R2), though the underlying concepts of role clarity and accountability were addressed within other sections. Its elevation to a standalone principle reflects the ICH’s recognition that modern clinical trials involve complex networks of responsibility that earlier guidance did not adequately address. The principle applies the same accountability logic that has always governed sponsor–CRO relationships and extends it throughout the trial ecosystem.
+
+---
+
+
+## Sub-Principle 10.1: Transfer and Delegation with Retained Responsibility
+
+> **Sub-principle 10.1**
+“The sponsor may transfer or the investigator may delegate their tasks, duties or functions (hereafter referred to as activities), but they retain overall responsibility for their respective activities.”
+
+### The Accountability Paradox
+
+Sub-principle 10.1 resolves what might seem like a paradox. How can someone remain responsible for activities they do not personally perform?
+The answer lies in understanding the difference between *performing* an activity and being *accountable* for it. A sponsor that contracts with a CRO to conduct monitoring is not personally visiting sites, but the sponsor remains accountable for ensuring monitoring is performed adequately. An investigator who delegates blood pressure measurements to a nurse is not personally taking vital signs, but the investigator remains accountable for ensuring those measurements are accurate and properly documented.
+This distinction matters because it determines who must answer when things go wrong. If a CRO fails to identify serious eligibility violations at a site, the sponsor cannot simply point at the CRO and claim innocence. The sponsor chose the CRO, defined what the CRO should do, and was responsible for overseeing the CRO’s performance. Similarly, if a coordinator at an investigative site makes systematic errors in recording adverse events, the investigator cannot disclaim responsibility simply because the investigator did not personally make the entries.
+> **Language Matters: From Supervision to Oversight**
+ICH E6(R3) consistently uses the term “oversight” rather than “supervision” when describing the responsibility that remains after delegation. This is not merely stylistic. “Supervision” implies direct, real-time management of another person’s work. “Oversight” implies a broader responsibility to ensure that work is done properly — whether through direct observation, review of outputs, audit, or other mechanisms. The shift in language reflects the reality that sponsors and investigators often cannot directly supervise delegated activities but must nevertheless ensure they are performed adequately.
+
+### Transfer Versus Delegation
+
+Sub-principle 10.1 uses two distinct terms: “transfer” for sponsors and “delegate” for investigators. This is not accidental.
+**Transfer** typically describes the formal contractual arrangement by which a sponsor assigns activities to a CRO or other service provider. The transfer is documented in a written agreement, defines specific activities, and creates legally enforceable obligations. When a sponsor transfers activities to a CRO, the CRO takes on direct responsibility for performing those activities, though the sponsor retains overall accountability.
+**Delegation** typically describes the arrangement by which an investigator assigns activities to qualified site staff. The investigator documents who is authorised to perform which activities, ensures delegated individuals are qualified, and maintains oversight of their performance. Unlike transfer, delegation does not involve a separate legal entity; it occurs within the investigator’s organisation.
+Both arrangements share the essential characteristic: the original accountable party cannot shed their fundamental responsibility through transfer or delegation. They can assign the work, but they cannot assign the accountability.
+
+### Reference Table: Transfer and Delegation — Key Characteristics
+
+
+| Aspect | Sponsor Transfer | Investigator Delegation |
+| --- | --- | --- |
+| **Primary relationship** | Sponsor to CRO or service provider | Investigator to site staff |
+| **Documentation mechanism** | Written contractual agreement | Record of delegation (per Section 2.3.3) and training records |
+| **Legal nature** | Creates obligations between entities | Internal assignment of duties |
+| **Accountability retained by** | Sponsor (always) | Investigator (always) |
+| **Oversight mechanism** | Contract monitoring, audits, reports | Direct or indirect supervision |
+| **Typical activities transferred/delegated** | Monitoring, data management, safety reporting | Consent discussions, assessments, data entry |
+
+
+---
+
+
+## Sub-Principle 10.2: Agreements Defining Roles and Activities
+
+> **Sub-principle 10.2**
+“Agreements should clearly define the roles, activities and responsibilities for the clinical trial and be documented appropriately. Where activities have been transferred or delegated to service providers, the responsibility for the conduct of the trial, including quality and integrity of the trial data, resides with the sponsor or investigator, respectively.”
+
+### The Three Elements of a Complete Agreement
+
+**Roles** define who the parties are and what capacity they serve. An agreement should specify that one party is the sponsor, another is the CRO, and precisely what each party’s role entails. Ambiguity about roles leads to assumptions, and assumptions lead to gaps.
+**Activities** define what will be done. This is not a place for generalities. An agreement that says a CRO will “handle monitoring” leaves too much undefined. Will the CRO develop the monitoring plan? Conduct all visits or only selected visits? Review all source documents or only a sample? Write monitoring reports? Follow up on action items? Each of these represents a distinct activity that should be explicitly assigned.
+**Responsibilities** define who is accountable for what. Sub-principle 10.2 makes clear that even where activities have been transferred or delegated to service providers, “the responsibility for the conduct of the trial, including quality and integrity of the trial data, resides with the sponsor or investigator, respectively.” This means agreements must specify not just who does what, but who bears responsibility for quality and outcomes — and that the sponsoring or investigating party cannot contractually shed this accountability.
+> **The Template Trap**
+A common failure mode is to use generic agreement templates without tailoring them to the specific trial. A template might include boilerplate language about roles and responsibilities that sounds comprehensive but does not reflect the actual arrangement. When questions arise later, the parties discover that the agreement does not actually address who was supposed to do what. Agreements should be reviewed to ensure they describe the actual arrangement, not an idealised one.
+
+### What Agreements Should Cover
+
+While the specific content varies by relationship, effective agreements addressing Principle 10 requirements typically include:
+**Identification of the parties and their roles** in the trial. This seems obvious but becomes important when organisations have complex structures or when multiple affiliates are involved.
+**Enumeration of specific activities** being transferred or assigned. The more granular the list, the less room for misunderstanding. “Monitoring” should become a list of specific monitoring activities.
+**Allocation of responsibilities for each activity.** For each activity, the agreement should specify which party performs it, which party reviews it, and which party is accountable for it.
+**Oversight mechanisms** the accountable party will use. This includes the types of reports to be provided, the frequency of review meetings, the metrics to be tracked, and the audit rights reserved.
+**Communication and escalation procedures.** When problems arise, who notifies whom? What issues require immediate escalation? How are disagreements resolved?
+**Documentation and record-keeping requirements.** What records must be maintained? Where are they kept? How long are they retained? Who has access?
+
+---
+
+
+## Sub-Principle 10.3: Maintaining Appropriate Oversight
+
+> **Sub-principle 10.3**
+“The sponsor or investigator should maintain appropriate oversight of the aforementioned activities.”
+
+### What Makes Oversight Appropriate
+
+Sub-principle 10.3 requires “appropriate” oversight, not maximum or standardised oversight. This language aligns with the proportionality principle from Module 4. Oversight should be scaled to the importance and risk of the delegated activities.
+Consider two activities delegated by the same sponsor to the same CRO: regulatory document collection and safety data review. Both require oversight, but not the same intensity of oversight. An error in regulatory document collection might delay a filing. An error in safety data review might result in a serious adverse event going unreported, potentially putting participants at risk. The oversight mechanisms for safety data review should be correspondingly more rigorous.
+Appropriate oversight considers several factors:
+**Criticality of the activity** to participant safety and data integrity. Activities that directly affect participant safety warrant more intensive oversight than those with primarily administrative implications.
+**Complexity of the activity** and the potential for error. Complex activities with multiple steps and judgment calls require more verification than straightforward, routine tasks.
+**Experience and qualifications of the party** performing the activity. A newly onboarded CRO conducting their first trial for a sponsor might warrant closer oversight than a CRO with a long track record of successful collaboration.
+**Past performance of the party.** If previous oversight has revealed problems, increased oversight is appropriate until confidence is restored.
+
+### Common Oversight Mechanisms
+
+**1. Reporting and metrics.** Regular reports from the party performing activities, with defined metrics that allow the accountable party to assess performance. This might include enrolment reports, monitoring visit completion rates, query resolution timelines, or safety event processing times. Effective metrics are specific, measurable, and tied to quality expectations.
+**2. Review meetings.** Scheduled meetings to discuss progress, identify issues, and make decisions. The frequency should match the intensity of activity and level of concern. Early in a relationship or during high-activity periods, meetings might be weekly; during stable operations, monthly or quarterly might suffice.
+**3. Audit and quality review.** Periodic independent review of work products, processes, or records. Audits might be conducted by the accountable party’s quality assurance function or by third-party auditors. The scope and frequency should reflect the criticality of the activities and past performance history.
+**4. Document review.** Review of key documents produced by the party performing activities. For monitoring, this might include review of a sample of monitoring reports. For data management, it might include review of data listings and edit check specifications. Document review provides direct insight into work quality.
+**5. Issue escalation.** Defined pathways for raising concerns or problems. Escalation procedures should specify what issues require immediate attention, who should be notified, and what response is expected. Effective escalation prevents problems from festering unaddressed.
+
+### Oversight as an Ongoing Responsibility
+
+Oversight is not a one-time event. It is an ongoing responsibility that continues for as long as activities are delegated. An initial qualification assessment is necessary but not sufficient. A single successful audit does not eliminate the need for continued monitoring.
+Circumstances change. Staff at the CRO may turn over. The trial may enter a more complex phase. New challenges may emerge. Oversight must adapt to these changes. A sponsor that establishes oversight mechanisms at trial start and never adjusts them fails to maintain appropriate oversight.
+Similarly, oversight should be proportionate not only at any given moment but over time. If early oversight reveals excellent performance, it may be appropriate to reduce the intensity. If problems emerge, oversight should intensify. The key is responsiveness: the oversight approach should reflect current circumstances, not just initial assumptions.
+> **Oversight Is Not Micromanagement**
+Appropriate oversight means ensuring work is done correctly, not dictating how every detail should be handled. Sponsors and investigators who delegate activities should define expectations and verify performance, but they should also allow qualified parties the professional autonomy to exercise judgment in their domains. Excessive interference undermines the efficiency that delegation is meant to achieve and may actually impair quality by preventing experienced professionals from applying their expertise.
+
+---
+
+
+## CRO and Service Provider Relationships
+
+While Principle 10 applies broadly, CRO relationships deserve specific attention given their prevalence and importance in modern clinical trials.
+When a sponsor contracts with a CRO to perform trial activities, the CRO becomes a critical extension of the sponsor’s capabilities. But the sponsor never becomes merely a client who can simply wait for the CRO to deliver results. The sponsor’s retained accountability means the sponsor must actively engage with the CRO’s work.
+Effective sponsor–CRO agreements typically address:
+**Scope of transferred activities** with specificity that leaves no activities undefined. This includes not just primary activities like monitoring or data management but supporting activities like training, quality control, and documentation.
+**Performance standards** that define what quality looks like. Vague requirements like “high quality monitoring” are insufficient. Specific standards might include visit completion timelines, query resolution rates, or protocol deviation detection expectations.
+**Communication requirements** including regular meetings, escalation pathways, and documentation of decisions. The agreement should establish who talks to whom, about what, and how often.
+**Quality assurance provisions** including the sponsor’s right to audit, requirements for the CRO’s internal quality processes, and procedures for addressing identified deficiencies.
+**Change control** addressing how changes to the arrangement are managed. As trials evolve, roles and activities may need to change. The agreement should define how such changes are requested, reviewed, and documented.
+> **ICH E6(R3) Glossary: Service Provider**
+“A person or organisation (commercial, academic or other) providing a service used by either the sponsor or the investigator to fulfil trial-related activities.”
+The distinction between a CRO and other service providers is fundamental to understanding responsibility structures under E6(R3). A **CRO** assumes transferred sponsor responsibilities per Section 3.6 — when a sponsor transfers monitoring responsibility to a CRO, the CRO takes on the sponsor’s regulatory obligations for that function. A **service provider**, by contrast, performs specific contracted activities (central laboratory analyses, imaging reads, IRT system management, drug depot services) without assuming the sponsor’s regulatory responsibilities. The sponsor retains full responsibility for activities performed by service providers and must exercise appropriate oversight per Section 3.6.5.
+This distinction has practical consequences: CRO agreements require explicit documentation of which sponsor responsibilities are being transferred, while service provider agreements focus on scope of services, quality requirements, and oversight mechanisms.
+> **A Note on Perspective**
+This course focuses on the investigator and site perspective in clinical trials. While understanding CRO relationships is important context, the detailed requirements for sponsor oversight of CROs are addressed primarily in sponsor-focused training. For investigators, the key insight is that CROs act on behalf of sponsors and that investigators interact with CROs as they would with sponsors, except that ultimate accountability remains with the sponsor.
+
+---
+
+
+## Preventing Gaps and Overlaps
+
+The ultimate purpose of Principle 10 is to prevent two types of failures: **gaps** where no one does what needs to be done, and **overlaps** where multiple parties do the same thing, often differently.
+**Gaps** occur when everyone assumes someone else is handling an activity. These are particularly dangerous because they may not be discovered until harm has occurred. The adverse event reporting scenario that opened this lesson illustrates a gap: everyone assumed the responsibility belonged elsewhere.
+**Overlaps** occur when multiple parties believe they are responsible for the same activity. While this might seem preferable to gaps, overlaps create their own problems. Different parties may perform the same activity differently, creating inconsistencies. Effort is duplicated. Conflicts arise about whose approach is correct. And ironically, overlaps can even create gaps: when everyone is nominally responsible, no one may feel compelled to act.
+Clear documentation prevents both failures. When roles and activities are explicitly assigned and documented, there is a reference point to consult when questions arise. When someone asks “who handles this?”, the answer should be findable in written agreements, delegation logs, or other documentation that Principle 10 requires.
+
+---
+
+
+## Key Takeaways
+
+- Principle 10 establishes that roles and responsibilities in clinical trials must be clear and documented appropriately
+- Sub-principle 10.1 permits transfer and delegation of activities but requires that sponsors and investigators retain overall responsibility for their respective domains
+- Sub-principle 10.2 requires agreements that clearly define the roles, activities and responsibilities for the clinical trial, and that these be documented appropriately
+- Sub-principle 10.3 requires the sponsor or investigator to maintain appropriate oversight of delegated activities
+- CRO and service provider agreements must specify scope, standards, communication, quality assurance, and change control
+- Clear role documentation prevents gaps (activities no one performs) and overlaps (activities multiple parties perform inconsistently)
+- The term “oversight” rather than “supervision” reflects the broader accountability that extends beyond direct management
+
+---
+
+
+## Looking Ahead
+
+Principle 10 establishes the framework for role clarity and accountability. Later in this course, Module 6 addresses how this principle applies specifically to investigators — investigator qualifications, delegation to site staff, and the investigator’s oversight responsibilities. The principle-level understanding from this lesson provides the foundation for those more specific applications.
+What Principle 10 provides is a way of thinking about accountability in complex trials: someone must always be responsible, delegation transfers activities but not accountability, agreements must be explicit, and oversight must be maintained. With this framework in mind, the specific requirements become logical extensions rather than arbitrary rules.
+
+---
+
+
+## Key Terms
+
+**Transfer:** The formal contractual arrangement by which a sponsor assigns trial activities to a CRO or other service provider; the sponsor retains overall accountability.
+**Delegation:** The arrangement by which an investigator assigns trial activities to qualified site staff; the investigator retains overall accountability.
+**Oversight:** The broader responsibility to ensure that delegated or transferred work is done properly — through review of outputs, audit, reporting, or other mechanisms; deliberately distinguished in E6(R3) from “supervision,” which implies direct real-time management.
+**Contract Research Organisation (CRO):** An organisation to which a sponsor transfers sponsor responsibilities per Section 3.6; the CRO takes on the sponsor’s regulatory obligations for the transferred functions, while the sponsor retains overall accountability.
+**Service provider:** Per the E6(R3) Glossary, “a person or organisation (commercial, academic or other) providing a service used by either the sponsor or the investigator to fulfil trial-related activities”; performs contracted activities without assuming the sponsor’s regulatory responsibilities.
+**Record of delegation:** The site-level documentation (per Section 2.3.3) recording which trial-related activities the investigator has delegated to which qualified individuals.
+**Gap:** A failure mode in which no party performs a necessary activity because each assumed another was responsible.
+**Overlap:** A failure mode in which multiple parties perform the same activity, often inconsistently, causing duplication and conflict.
+**Sub-principle 10.1:** The sponsor may transfer, and the investigator may delegate, activities — but both retain overall responsibility for their respective activities.
+**Sub-principle 10.2:** Agreements should clearly define roles, activities, and responsibilities; responsibility for trial conduct, including data quality and integrity, resides with the sponsor or investigator.
+**Sub-principle 10.3:** The sponsor or investigator should maintain appropriate oversight of transferred or delegated activities.
+
 ---
 
 Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities](https://www.freegcp.com/learn/ich-e6r3-gcp/reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities)
@@ -218,212 +424,8 @@ CRO တစ်ခုနှင့် အခြား ဝန်ဆောင်မ�
 **မူခွဲ ၁၀.၂ (Sub-principle 10.2):** သဘောတူညီချက်များသည် ကဏ္ဍများ၊ လုပ်ဆောင်ချက်များနှင့် တာဝန်ဝတ္တရားများကို တိကျစွာ အဓိပ္ပာယ်ဖွင့်ဆိုရမည်; အချက်အလက် အရည်အသွေးနှင့် စစ်မှန်မှု အပါအဝင် စမ်းသပ်မှု ပြုလုပ်ဆောင်ရွက်ခြင်းဆိုင်ရာ တာဝန်ဝတ္တရားသည် စပွန်ဆာ သို့မဟုတ် သုတေသီထံ တည်ရှိသည်။
 **မူခွဲ ၁၀.၃ (Sub-principle 10.3):** စပွန်ဆာ သို့မဟုတ် သုတေသီသည် လွှဲပြောင်းထားသော သို့မဟုတ် တာဝန်လွှဲအပ်ထားသော လုပ်ဆောင်ချက်များကို သင့်လျော်စွာ ကြပ်မတ်ကြည့်ရှုမှုကို ထိန်းသိမ်းရမည်။
 
-**Learn how ICH E6(R3) requires clear documentation of roles and responsibilities, establishing accountability frameworks that prevent gaps and overlaps while enabling appropriate delegation with maintained oversight.**
-
----
-
-
-## When Everyone Assumes Someone Else Is Handling It
-
-Consider a scenario that plays out more often than anyone would like to admit: A participant experiences a serious adverse event on a Friday evening. The investigator assumes the sponsor’s safety team is handling the regulatory notification. The sponsor assumes the site has already reported to the IRB. The IRB waits for documentation that neither party believes is their responsibility to prepare. Days pass. Deadlines are missed. When regulators eventually inquire, everyone points at everyone else.
-This is not a failure of intent. Everyone involved wanted to protect the participant and meet their obligations. It is a failure of clarity. No one had documented precisely who was responsible for what.
-Principle 10 of ICH E6(R3) addresses this problem directly. It is one of two principles newly elevated to standalone status in E6(R3), reflecting the recognition that as clinical trials have grown more complex and involve more parties, the question of “who does what” has become both more important and more difficult to answer. Clear, documented roles and responsibilities are not bureaucratic formalities. They are the architecture of accountability.
-
----
-
-
-## What You Will Learn
-
-By the end of this lesson, you will be able to:
-1. Document roles and responsibilities clearly for all trial participants (10.1)
-1. Apply requirements for transfer and delegation while retaining accountability
-1. Develop agreements that define roles, activities, and responsibilities (10.2)
-1. Maintain appropriate oversight of delegated activities (10.3)
-1. Structure CRO and service provider agreements appropriately
-
----
-
-
-## What Principle 10 Requires
-
-> **ICH E6(R3) Principle 10: Roles and Responsibilities**
-“Roles and responsibilities in clinical trials should be clear and documented appropriately.”
-
-### Why Clarity Merits a Principle
-
-One might wonder why something so apparently obvious needs its own principle. Do we really need a regulatory guideline to tell us that people should know their jobs?
-The answer lies in how clinical trial conduct has evolved. In the early days of clinical research, trials were often small, single-site affairs where the investigator did nearly everything. Role confusion was unlikely because there were few roles to confuse.
-Modern trials tell a different story. A single Phase III trial might involve a sponsor, one or more contract research organisations, dozens of investigative sites across multiple countries, central laboratories, imaging vendors, interactive response technology providers, electronic data capture vendors, safety reporting services, and specialised consultants for statistics, regulatory affairs, and medical writing. Each of these entities has staff members who may change during the course of the trial. The potential for gaps, overlaps, and misunderstandings is immense.
-Principle 10 responds to this reality. It recognises that when multiple parties share responsibility for participant protection and data integrity, explicit documentation of who does what is not optional. It is essential.
-> **A New Principle for a Changed Landscape**
-Principle 10 did not exist as a standalone principle in ICH E6(R2), though the underlying concepts of role clarity and accountability were addressed within other sections. Its elevation to a standalone principle reflects the ICH’s recognition that modern clinical trials involve complex networks of responsibility that earlier guidance did not adequately address. The principle applies the same accountability logic that has always governed sponsor–CRO relationships and extends it throughout the trial ecosystem.
-
----
-
-
-## Sub-Principle 10.1: Transfer and Delegation with Retained Responsibility
-
-> **Sub-principle 10.1**
-“The sponsor may transfer or the investigator may delegate their tasks, duties or functions (hereafter referred to as activities), but they retain overall responsibility for their respective activities.”
-
-### The Accountability Paradox
-
-Sub-principle 10.1 resolves what might seem like a paradox. How can someone remain responsible for activities they do not personally perform?
-The answer lies in understanding the difference between *performing* an activity and being *accountable* for it. A sponsor that contracts with a CRO to conduct monitoring is not personally visiting sites, but the sponsor remains accountable for ensuring monitoring is performed adequately. An investigator who delegates blood pressure measurements to a nurse is not personally taking vital signs, but the investigator remains accountable for ensuring those measurements are accurate and properly documented.
-This distinction matters because it determines who must answer when things go wrong. If a CRO fails to identify serious eligibility violations at a site, the sponsor cannot simply point at the CRO and claim innocence. The sponsor chose the CRO, defined what the CRO should do, and was responsible for overseeing the CRO’s performance. Similarly, if a coordinator at an investigative site makes systematic errors in recording adverse events, the investigator cannot disclaim responsibility simply because the investigator did not personally make the entries.
-> **Language Matters: From Supervision to Oversight**
-ICH E6(R3) consistently uses the term “oversight” rather than “supervision” when describing the responsibility that remains after delegation. This is not merely stylistic. “Supervision” implies direct, real-time management of another person’s work. “Oversight” implies a broader responsibility to ensure that work is done properly — whether through direct observation, review of outputs, audit, or other mechanisms. The shift in language reflects the reality that sponsors and investigators often cannot directly supervise delegated activities but must nevertheless ensure they are performed adequately.
-
-### Transfer Versus Delegation
-
-Sub-principle 10.1 uses two distinct terms: “transfer” for sponsors and “delegate” for investigators. This is not accidental.
-**Transfer** typically describes the formal contractual arrangement by which a sponsor assigns activities to a CRO or other service provider. The transfer is documented in a written agreement, defines specific activities, and creates legally enforceable obligations. When a sponsor transfers activities to a CRO, the CRO takes on direct responsibility for performing those activities, though the sponsor retains overall accountability.
-**Delegation** typically describes the arrangement by which an investigator assigns activities to qualified site staff. The investigator documents who is authorised to perform which activities, ensures delegated individuals are qualified, and maintains oversight of their performance. Unlike transfer, delegation does not involve a separate legal entity; it occurs within the investigator’s organisation.
-Both arrangements share the essential characteristic: the original accountable party cannot shed their fundamental responsibility through transfer or delegation. They can assign the work, but they cannot assign the accountability.
-
-### Reference Table: Transfer and Delegation — Key Characteristics
-
-
-| Aspect | Sponsor Transfer | Investigator Delegation |
-| --- | --- | --- |
-| **Primary relationship** | Sponsor to CRO or service provider | Investigator to site staff |
-| **Documentation mechanism** | Written contractual agreement | Record of delegation (per Section 2.3.3) and training records |
-| **Legal nature** | Creates obligations between entities | Internal assignment of duties |
-| **Accountability retained by** | Sponsor (always) | Investigator (always) |
-| **Oversight mechanism** | Contract monitoring, audits, reports | Direct or indirect supervision |
-| **Typical activities transferred/delegated** | Monitoring, data management, safety reporting | Consent discussions, assessments, data entry |
-
-
----
-
-
-## Sub-Principle 10.2: Agreements Defining Roles and Activities
-
-> **Sub-principle 10.2**
-“Agreements should clearly define the roles, activities and responsibilities for the clinical trial and be documented appropriately. Where activities have been transferred or delegated to service providers, the responsibility for the conduct of the trial, including quality and integrity of the trial data, resides with the sponsor or investigator, respectively.”
-
-### The Three Elements of a Complete Agreement
-
-**Roles** define who the parties are and what capacity they serve. An agreement should specify that one party is the sponsor, another is the CRO, and precisely what each party’s role entails. Ambiguity about roles leads to assumptions, and assumptions lead to gaps.
-**Activities** define what will be done. This is not a place for generalities. An agreement that says a CRO will “handle monitoring” leaves too much undefined. Will the CRO develop the monitoring plan? Conduct all visits or only selected visits? Review all source documents or only a sample? Write monitoring reports? Follow up on action items? Each of these represents a distinct activity that should be explicitly assigned.
-**Responsibilities** define who is accountable for what. Sub-principle 10.2 makes clear that even where activities have been transferred or delegated to service providers, “the responsibility for the conduct of the trial, including quality and integrity of the trial data, resides with the sponsor or investigator, respectively.” This means agreements must specify not just who does what, but who bears responsibility for quality and outcomes — and that the sponsoring or investigating party cannot contractually shed this accountability.
-> **The Template Trap**
-A common failure mode is to use generic agreement templates without tailoring them to the specific trial. A template might include boilerplate language about roles and responsibilities that sounds comprehensive but does not reflect the actual arrangement. When questions arise later, the parties discover that the agreement does not actually address who was supposed to do what. Agreements should be reviewed to ensure they describe the actual arrangement, not an idealised one.
-
-### What Agreements Should Cover
-
-While the specific content varies by relationship, effective agreements addressing Principle 10 requirements typically include:
-**Identification of the parties and their roles** in the trial. This seems obvious but becomes important when organisations have complex structures or when multiple affiliates are involved.
-**Enumeration of specific activities** being transferred or assigned. The more granular the list, the less room for misunderstanding. “Monitoring” should become a list of specific monitoring activities.
-**Allocation of responsibilities for each activity.** For each activity, the agreement should specify which party performs it, which party reviews it, and which party is accountable for it.
-**Oversight mechanisms** the accountable party will use. This includes the types of reports to be provided, the frequency of review meetings, the metrics to be tracked, and the audit rights reserved.
-**Communication and escalation procedures.** When problems arise, who notifies whom? What issues require immediate escalation? How are disagreements resolved?
-**Documentation and record-keeping requirements.** What records must be maintained? Where are they kept? How long are they retained? Who has access?
-
----
-
-
-## Sub-Principle 10.3: Maintaining Appropriate Oversight
-
-> **Sub-principle 10.3**
-“The sponsor or investigator should maintain appropriate oversight of the aforementioned activities.”
-
-### What Makes Oversight Appropriate
-
-Sub-principle 10.3 requires “appropriate” oversight, not maximum or standardised oversight. This language aligns with the proportionality principle from Module 4. Oversight should be scaled to the importance and risk of the delegated activities.
-Consider two activities delegated by the same sponsor to the same CRO: regulatory document collection and safety data review. Both require oversight, but not the same intensity of oversight. An error in regulatory document collection might delay a filing. An error in safety data review might result in a serious adverse event going unreported, potentially putting participants at risk. The oversight mechanisms for safety data review should be correspondingly more rigorous.
-Appropriate oversight considers several factors:
-**Criticality of the activity** to participant safety and data integrity. Activities that directly affect participant safety warrant more intensive oversight than those with primarily administrative implications.
-**Complexity of the activity** and the potential for error. Complex activities with multiple steps and judgment calls require more verification than straightforward, routine tasks.
-**Experience and qualifications of the party** performing the activity. A newly onboarded CRO conducting their first trial for a sponsor might warrant closer oversight than a CRO with a long track record of successful collaboration.
-**Past performance of the party.** If previous oversight has revealed problems, increased oversight is appropriate until confidence is restored.
-
-### Common Oversight Mechanisms
-
-**1. Reporting and metrics.** Regular reports from the party performing activities, with defined metrics that allow the accountable party to assess performance. This might include enrolment reports, monitoring visit completion rates, query resolution timelines, or safety event processing times. Effective metrics are specific, measurable, and tied to quality expectations.
-**2. Review meetings.** Scheduled meetings to discuss progress, identify issues, and make decisions. The frequency should match the intensity of activity and level of concern. Early in a relationship or during high-activity periods, meetings might be weekly; during stable operations, monthly or quarterly might suffice.
-**3. Audit and quality review.** Periodic independent review of work products, processes, or records. Audits might be conducted by the accountable party’s quality assurance function or by third-party auditors. The scope and frequency should reflect the criticality of the activities and past performance history.
-**4. Document review.** Review of key documents produced by the party performing activities. For monitoring, this might include review of a sample of monitoring reports. For data management, it might include review of data listings and edit check specifications. Document review provides direct insight into work quality.
-**5. Issue escalation.** Defined pathways for raising concerns or problems. Escalation procedures should specify what issues require immediate attention, who should be notified, and what response is expected. Effective escalation prevents problems from festering unaddressed.
-
-### Oversight as an Ongoing Responsibility
-
-Oversight is not a one-time event. It is an ongoing responsibility that continues for as long as activities are delegated. An initial qualification assessment is necessary but not sufficient. A single successful audit does not eliminate the need for continued monitoring.
-Circumstances change. Staff at the CRO may turn over. The trial may enter a more complex phase. New challenges may emerge. Oversight must adapt to these changes. A sponsor that establishes oversight mechanisms at trial start and never adjusts them fails to maintain appropriate oversight.
-Similarly, oversight should be proportionate not only at any given moment but over time. If early oversight reveals excellent performance, it may be appropriate to reduce the intensity. If problems emerge, oversight should intensify. The key is responsiveness: the oversight approach should reflect current circumstances, not just initial assumptions.
-> **Oversight Is Not Micromanagement**
-Appropriate oversight means ensuring work is done correctly, not dictating how every detail should be handled. Sponsors and investigators who delegate activities should define expectations and verify performance, but they should also allow qualified parties the professional autonomy to exercise judgment in their domains. Excessive interference undermines the efficiency that delegation is meant to achieve and may actually impair quality by preventing experienced professionals from applying their expertise.
-
----
-
-
-## CRO and Service Provider Relationships
-
-While Principle 10 applies broadly, CRO relationships deserve specific attention given their prevalence and importance in modern clinical trials.
-When a sponsor contracts with a CRO to perform trial activities, the CRO becomes a critical extension of the sponsor’s capabilities. But the sponsor never becomes merely a client who can simply wait for the CRO to deliver results. The sponsor’s retained accountability means the sponsor must actively engage with the CRO’s work.
-Effective sponsor–CRO agreements typically address:
-**Scope of transferred activities** with specificity that leaves no activities undefined. This includes not just primary activities like monitoring or data management but supporting activities like training, quality control, and documentation.
-**Performance standards** that define what quality looks like. Vague requirements like “high quality monitoring” are insufficient. Specific standards might include visit completion timelines, query resolution rates, or protocol deviation detection expectations.
-**Communication requirements** including regular meetings, escalation pathways, and documentation of decisions. The agreement should establish who talks to whom, about what, and how often.
-**Quality assurance provisions** including the sponsor’s right to audit, requirements for the CRO’s internal quality processes, and procedures for addressing identified deficiencies.
-**Change control** addressing how changes to the arrangement are managed. As trials evolve, roles and activities may need to change. The agreement should define how such changes are requested, reviewed, and documented.
-> **ICH E6(R3) Glossary: Service Provider**
-“A person or organisation (commercial, academic or other) providing a service used by either the sponsor or the investigator to fulfil trial-related activities.”
-The distinction between a CRO and other service providers is fundamental to understanding responsibility structures under E6(R3). A **CRO** assumes transferred sponsor responsibilities per Section 3.6 — when a sponsor transfers monitoring responsibility to a CRO, the CRO takes on the sponsor’s regulatory obligations for that function. A **service provider**, by contrast, performs specific contracted activities (central laboratory analyses, imaging reads, IRT system management, drug depot services) without assuming the sponsor’s regulatory responsibilities. The sponsor retains full responsibility for activities performed by service providers and must exercise appropriate oversight per Section 3.6.5.
-This distinction has practical consequences: CRO agreements require explicit documentation of which sponsor responsibilities are being transferred, while service provider agreements focus on scope of services, quality requirements, and oversight mechanisms.
-> **A Note on Perspective**
-This course focuses on the investigator and site perspective in clinical trials. While understanding CRO relationships is important context, the detailed requirements for sponsor oversight of CROs are addressed primarily in sponsor-focused training. For investigators, the key insight is that CROs act on behalf of sponsors and that investigators interact with CROs as they would with sponsors, except that ultimate accountability remains with the sponsor.
-
----
-
-
-## Preventing Gaps and Overlaps
-
-The ultimate purpose of Principle 10 is to prevent two types of failures: **gaps** where no one does what needs to be done, and **overlaps** where multiple parties do the same thing, often differently.
-**Gaps** occur when everyone assumes someone else is handling an activity. These are particularly dangerous because they may not be discovered until harm has occurred. The adverse event reporting scenario that opened this lesson illustrates a gap: everyone assumed the responsibility belonged elsewhere.
-**Overlaps** occur when multiple parties believe they are responsible for the same activity. While this might seem preferable to gaps, overlaps create their own problems. Different parties may perform the same activity differently, creating inconsistencies. Effort is duplicated. Conflicts arise about whose approach is correct. And ironically, overlaps can even create gaps: when everyone is nominally responsible, no one may feel compelled to act.
-Clear documentation prevents both failures. When roles and activities are explicitly assigned and documented, there is a reference point to consult when questions arise. When someone asks “who handles this?”, the answer should be findable in written agreements, delegation logs, or other documentation that Principle 10 requires.
-
----
-
-
-## Key Takeaways
-
-- Principle 10 establishes that roles and responsibilities in clinical trials must be clear and documented appropriately
-- Sub-principle 10.1 permits transfer and delegation of activities but requires that sponsors and investigators retain overall responsibility for their respective domains
-- Sub-principle 10.2 requires agreements that clearly define the roles, activities and responsibilities for the clinical trial, and that these be documented appropriately
-- Sub-principle 10.3 requires the sponsor or investigator to maintain appropriate oversight of delegated activities
-- CRO and service provider agreements must specify scope, standards, communication, quality assurance, and change control
-- Clear role documentation prevents gaps (activities no one performs) and overlaps (activities multiple parties perform inconsistently)
-- The term “oversight” rather than “supervision” reflects the broader accountability that extends beyond direct management
-
----
-
-
-## Looking Ahead
-
-Principle 10 establishes the framework for role clarity and accountability. Later in this course, Module 6 addresses how this principle applies specifically to investigators — investigator qualifications, delegation to site staff, and the investigator’s oversight responsibilities. The principle-level understanding from this lesson provides the foundation for those more specific applications.
-What Principle 10 provides is a way of thinking about accountability in complex trials: someone must always be responsible, delegation transfers activities but not accountability, agreements must be explicit, and oversight must be maintained. With this framework in mind, the specific requirements become logical extensions rather than arbitrary rules.
-
----
-
-
-## Key Terms
-
-**Transfer:** The formal contractual arrangement by which a sponsor assigns trial activities to a CRO or other service provider; the sponsor retains overall accountability.
-**Delegation:** The arrangement by which an investigator assigns trial activities to qualified site staff; the investigator retains overall accountability.
-**Oversight:** The broader responsibility to ensure that delegated or transferred work is done properly — through review of outputs, audit, reporting, or other mechanisms; deliberately distinguished in E6(R3) from “supervision,” which implies direct real-time management.
-**Contract Research Organisation (CRO):** An organisation to which a sponsor transfers sponsor responsibilities per Section 3.6; the CRO takes on the sponsor’s regulatory obligations for the transferred functions, while the sponsor retains overall accountability.
-**Service provider:** Per the E6(R3) Glossary, “a person or organisation (commercial, academic or other) providing a service used by either the sponsor or the investigator to fulfil trial-related activities”; performs contracted activities without assuming the sponsor’s regulatory responsibilities.
-**Record of delegation:** The site-level documentation (per Section 2.3.3) recording which trial-related activities the investigator has delegated to which qualified individuals.
-**Gap:** A failure mode in which no party performs a necessary activity because each assumed another was responsible.
-**Overlap:** A failure mode in which multiple parties perform the same activity, often inconsistently, causing duplication and conflict.
-**Sub-principle 10.1:** The sponsor may transfer, and the investigator may delegate, activities — but both retain overall responsibility for their respective activities.
-**Sub-principle 10.2:** Agreements should clearly define roles, activities, and responsibilities; responsibility for trial conduct, including data quality and integrity, resides with the sponsor or investigator.
-**Sub-principle 10.3:** The sponsor or investigator should maintain appropriate oversight of transferred or delegated activities.
 
 ---
 
 Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities](https://www.freegcp.com/learn/ich-e6r3-gcp/reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities)
 Translated by **Google Gemini (3.5 Flash)**
-

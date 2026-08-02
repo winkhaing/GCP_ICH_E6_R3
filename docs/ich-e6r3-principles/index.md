@@ -40,8 +40,8 @@ nav_order: 2
 
 - [Principle 9: Reliable Results](./module-5-reliable-results-roles-and-product-management/principle-9-reliable-results/)
 - [Principle 10: Roles and Responsibilities](./module-5-reliable-results-roles-and-product-management/principle-10-roles-and-responsibilities/)
-- [T (5)](./module-5-reliable-results-roles-and-product-management/t-5/)
-- [T (5)](./module-5-reliable-results-roles-and-product-management/t-5/)
+- [Principle 11: Investigational Products](./module-5-reliable-results-roles-and-product-management/principle-11-investigational-products/)
+- [Fit-for-Purpose Systems and Computerised Systems Validation](./module-5-reliable-results-roles-and-product-management/fit-for-purpose-systems-and-computerised-systems-validation/)
 
 ## Module 6: Investigator Responsibilities: Qualifications to Protocol Compliance
 

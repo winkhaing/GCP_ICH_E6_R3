@@ -10,12 +10,12 @@ English Version
 
 ---
 
-Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/protocol-compliance-and-premature-termination-25-26](https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/protocol-compliance-and-premature-termination-25-26)
+Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/communication-with-irbiec-24](https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/communication-with-irbiec-24)
 Burmese Version
 
 
 ---
 
-Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/protocol-compliance-and-premature-termination-25-26](https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/protocol-compliance-and-premature-termination-25-26)
+Source: [https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/communication-with-irbiec-24](https://www.freegcp.com/learn/ich-e6r3-gcp/investigator-responsibilities-qualifications-to-protocol-compliance/communication-with-irbiec-24)
 Translated by **Google Gemini (3.5 Flash)**
 
